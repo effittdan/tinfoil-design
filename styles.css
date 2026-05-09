@@ -116,7 +116,7 @@ input {
   width: 88px;
   height: 88px;
   overflow: hidden;
-  transform: translateY(24px);
+  transform: translateY(14px);
 }
 
 .brand-lockup img {
