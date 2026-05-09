@@ -113,15 +113,15 @@ input {
 .brand-lockup {
   display: grid;
   place-items: center;
-  width: 66px;
-  height: 58px;
+  width: 88px;
+  height: 66px;
   overflow: hidden;
 }
 
 .brand-lockup img {
   display: block;
-  width: 82px;
-  height: 82px;
+  width: 92px;
+  height: 92px;
   object-fit: contain;
   filter: invert(1) grayscale(1) contrast(1.4);
   mix-blend-mode: screen;
