@@ -71,7 +71,7 @@ input {
   grid-template-columns: 42px 1fr auto 1fr auto;
   align-items: center;
   gap: 22px;
-  min-height: 68px;
+  min-height: 112px;
   padding: 0 34px;
   background: var(--ink);
   color: var(--white);
@@ -116,6 +116,7 @@ input {
   width: 88px;
   height: 88px;
   overflow: hidden;
+  transform: translateY(24px);
 }
 
 .brand-lockup img {
