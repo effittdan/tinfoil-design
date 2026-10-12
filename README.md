@@ -10,6 +10,8 @@ The main storefront lives in `src/`, with Vite publishing `dist/` to Netlify. Th
 
 `npm install`, `npm run dev`, `npm test`, `npm run build`.
 
+For direct SiteGround Node.js hosting, `npm start` serves the built site and API together. See [docs/SITEGROUND-DEPLOY.md](docs/SITEGROUND-DEPLOY.md) for runtime, private storage, forms and domain cutover requirements. No Netlify proxy is required.
+
 Routes: homepage, shop, collections, 25 product pages, cart, checkout, order status, about/manifesto, journal and four lore articles, shipping, contact, privacy, terms, and 404. The cart persists in the browser. Size selection is required; original artwork is available beside illustrative garment photographs. Newsletter and contact forms use Netlify Forms.
 
 The new catalog is a preview until it is mapped to real Printful products. Preview prices, garment types, colors and sizes are design proposals. Generated product photography must be checked against real Printful templates/samples before commerce opens. The original transparent artwork is unchanged; optimized display derivatives are in `public/assets/artwork`.

@@ -462,7 +462,9 @@ document.addEventListener("submit", async (e) => {
         location.hostname === "localhost"
       )
         throw Error();
-      s.textContent = "Transmission received. You are on the frequency.";
+      s.textContent = f.matches(".contact-form")
+        ? "Transmission received. Your message is in the bunker."
+        : "Transmission received. You are on the frequency.";
       f.reset();
     } catch {
       s.textContent =
