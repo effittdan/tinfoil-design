@@ -11,7 +11,7 @@ test("standalone host serves routes and fails closed without credentials", async
     assert.match(await product.text(), /Black File Tee/);
     assert.equal((await fetch(base + "/assets/missing.js")).status, 404);
     assert.equal((await fetch(base + "/package.json")).status, 404);
-    const config = await (await fetch(base + "/api/config")).json();
+    const config = await (await fetch(base + "/api/capabilities")).json();
     assert.equal(config.enabled, false);
     assert.equal(
       (

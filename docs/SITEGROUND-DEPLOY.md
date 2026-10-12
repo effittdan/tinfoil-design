@@ -10,6 +10,7 @@ The same repository can run directly on a Node.js host. `npm start` launches the
 - Start: `npm start`.
 - SiteGround must route requests to the process's `PORT`; the listener binds `0.0.0.0`.
 - Health endpoint: `/healthz`.
+- Public checkout status endpoint: `/api/capabilities`. SiteGround rejected `/api/config` before the request reached Node; no host protection was disabled.
 - Static output: `dist`; do not expose the repository root, `.env`, server files or credentials.
 - Set `SITE_URL` to the actual HTTPS host before building and starting, initially the assigned temporary hostname and later `https://tinfoildesign.com`.
 - Set `COMMERCE_ENABLED=false` during migration. Configure credentials privately in the Node project's environment, not in files or Git.

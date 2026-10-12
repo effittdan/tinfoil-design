@@ -145,7 +145,7 @@ async function webhookPayPal(req) {
 export default async function handler(req, context = {}) {
   try {
     const path = new URL(req.url).pathname.split("/").at(-1);
-    if (req.method === "GET" && path === "config")
+    if (req.method === "GET" && ["config", "capabilities"].includes(path))
       return json({
         enabled: configured(),
         stripe: configured() && !!process.env.STRIPE_WEBHOOK_SECRET,

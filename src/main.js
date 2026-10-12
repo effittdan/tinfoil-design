@@ -566,7 +566,7 @@ document.addEventListener("keydown", (e) => {
   }
 });
 render();
-Promise.allSettled([api("config"), api("catalog")]).then(([c, p]) => {
+Promise.allSettled([api("capabilities"), api("catalog")]).then(([c, p]) => {
   if (c.status === "fulfilled") capabilities = c.value;
   if (p.status === "fulfilled" && p.value.live) {
     live = true;
