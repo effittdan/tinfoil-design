@@ -1,0 +1,12 @@
+node_modules/
+docs/previews/stripe-test-webhook.png
+dist/
+.netlify/
+.env
+.env.*
+!.env.example
+mockups/
+artwork-source/
+test-results/
+playwright-report/
+*.log

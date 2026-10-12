@@ -1,0 +1,222 @@
+[
+  {
+    "id": "black-file",
+    "name": "Black File Tee",
+    "design": "Black File",
+    "collection": "Conspiracy Inspired",
+    "type": "Tee",
+    "price": 38,
+    "feature": true,
+    "description": "The eternal beauty of a redacted paragraph. Filed under: none of your business."
+  },
+  {
+    "id": "numbers-station",
+    "name": "Numbers Station Tee",
+    "design": "Numbers Station",
+    "collection": "Conspiracy Inspired",
+    "type": "Tee",
+    "price": 38,
+    "feature": true,
+    "description": "The message was never for you. You wore it anyway."
+  },
+  {
+    "id": "ancient-tech",
+    "name": "Ancient Tech Hoodie",
+    "design": "Ancient Tech",
+    "collection": "Fringe Ideas",
+    "type": "Hoodie",
+    "price": 60,
+    "feature": true,
+    "description": "The gods left blueprints. We made something comfortable out of them."
+  },
+  {
+    "id": "abduction-protocol",
+    "name": "Abduction Protocol Tee",
+    "design": "Aduction Protocol",
+    "collection": "UFO Culture",
+    "type": "Tee",
+    "price": 38,
+    "feature": true,
+    "description": "Missing time. Excellent taste. For those who know the sky has layers."
+  },
+  {
+    "id": "timeline-breach",
+    "name": "Timeline Breach Tee",
+    "design": "Timeline Breach",
+    "collection": "Conspiracy Inspired",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "watch-list",
+    "name": "Watch List Tee",
+    "design": "Watch list",
+    "collection": "Conspiracy Inspired",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "green-ratio",
+    "name": "Green Ratio Tee",
+    "design": "Green Ratio",
+    "collection": "Fringe Ideas",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "tartaria",
+    "name": "Tartaria Tee",
+    "design": "Tartaria",
+    "collection": "Fringe Ideas",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "weather-design",
+    "name": "Weather Design Tee",
+    "design": "Weather Design",
+    "collection": "Fringe Ideas",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "cold-blooded-elite",
+    "name": "Cold Blooded Elite Tee",
+    "design": "Cold Blooded Elite",
+    "collection": "UFO Culture",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "reptilian-royalty",
+    "name": "Reptilian Royalty Tee",
+    "design": "Reptilian Royalty",
+    "collection": "UFO Culture",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "epstein",
+    "name": "Epstein Archive Tee",
+    "design": "Epstein",
+    "collection": "Conspiracy Inspired",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "avicci",
+    "name": "Avicci Archive Tee",
+    "design": "Avicci",
+    "collection": "They Knew",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "bourdain",
+    "name": "Bourdain Archive Tee",
+    "design": "Bourdain",
+    "collection": "They Knew",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "chester",
+    "name": "Chester Archive Tee",
+    "design": "Chester",
+    "collection": "They Knew",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "corey",
+    "name": "Corey Archive Tee",
+    "design": "Corey",
+    "collection": "They Knew",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "cornell",
+    "name": "Cornell Archive Tee",
+    "design": "Cornell",
+    "collection": "They Knew",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "kappy",
+    "name": "Kappy Archive Tee",
+    "design": "Kappy",
+    "collection": "They Knew",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "walker",
+    "name": "Walker Archive Tee",
+    "design": "Walker",
+    "collection": "They Knew",
+    "type": "Tee",
+    "price": 38
+  },
+  {
+    "id": "machine-elves",
+    "name": "Machine Elves Tee",
+    "design": "Machine Elves",
+    "collection": "Alt Thinking",
+    "type": "Tee",
+    "price": 38,
+    "prepped": true,
+    "defaultColor": "Ivory"
+  },
+  {
+    "id": "root-access",
+    "name": "Root Access Tee",
+    "design": "Root Access",
+    "collection": "Alt Thinking",
+    "type": "Tee",
+    "price": 38,
+    "prepped": true,
+    "defaultColor": "Ivory"
+  },
+  {
+    "id": "simulation-leak",
+    "name": "Simulation Leak Tee",
+    "design": "Simulation Leak",
+    "collection": "Alt Thinking",
+    "type": "Tee",
+    "price": 38,
+    "prepped": true,
+    "defaultColor": "Ivory"
+  },
+  {
+    "id": "silicone-throne",
+    "name": "Silicone Throne Tee",
+    "design": "Silicone Throne",
+    "collection": "Alt Thinking",
+    "type": "Tee",
+    "price": 38,
+    "prepped": true,
+    "defaultColor": "Ivory"
+  },
+  {
+    "id": "adrenochrome",
+    "name": "Adrenochrome Tee",
+    "design": "Adrenochrome",
+    "collection": "Alt Thinking",
+    "type": "Tee",
+    "price": 38,
+    "prepped": true,
+    "defaultColor": "Ivory"
+  },
+  {
+    "id": "aaron",
+    "name": "Aaron Archive Tee",
+    "design": "Aaron",
+    "collection": "They Knew",
+    "type": "Tee",
+    "price": 38,
+    "prepped": true,
+    "defaultColor": "Ivory"
+  }
+]

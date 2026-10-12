@@ -1,5 +1,23 @@
 [build]
-  publish = "."
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/commerce/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 [[headers]]
   for = "/*"
@@ -9,6 +27,6 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
 
 [[headers]]
-  for = "/Reference/*"
+  for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=604800"
