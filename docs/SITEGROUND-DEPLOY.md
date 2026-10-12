@@ -2,6 +2,16 @@
 
 The same repository can run directly on a Node.js host. `npm start` launches the built storefront and API in one process; it does not proxy to Netlify. Netlify deploys continue using their existing functions.
 
+## Cutover status / October 12, 2026
+
+- SiteGround Node project hosts `tinfoildesign.com` and `www.tinfoildesign.com`; HTTPS, homepage, a product deep link, `/healthz` and `/api/capabilities` responded successfully after assignment. Checkout remains disabled.
+- WordPress hosting is preserved under `legacy.tinfoildesign.com`, not deleted. Its server remains `35.209.159.21`; the storefront host is `34.174.108.13`.
+- A separate 335 MB WordPress file archive was created outside `public_html`. A complete SQL export of all 90 tables and the original 22 DNS records were saved privately outside Git. The file archive's local download was not confirmed; its on-server creation was confirmed. The SQL export was verified for complete length, schema tables and final COMMIT.
+- User explicitly approved the rename's loss of access to SiteGround's prior backup history. No premium backup purchase was made.
+- Authoritative DNS confirms root and legacy addresses. Root SPF, Google verification, DKIM and DMARC are present. SiteGround currently publishes three `mx*.antispam.mailspamprotection.com` MX targets; the saved pre-cutover UI listed `mx*.mailspamprotection.com`. No working mailbox or end-to-end mail delivery is claimed.
+- Hosting uses a manual ZIP from runtime commit `eca0e1c`. The GitHub app is installed read-only for this repository, but SiteGround's repository picker remained empty, so automatic Git deployment is not enabled.
+- Remaining: update the Node project's `SITE_URL` from the temporary hostname to `https://tinfoildesign.com` and rebuild; finish legacy TLS (verification failed immediately after rename), confirm/update WordPress URL settings, inspect post-rename DNS against the saved records, and configure private database/payment/fulfillment connections. SiteGround expired the login during the cutover, so these final control-panel checks await renewed user login.
+
 ## Build and runtime
 
 - Node.js 22 or newer; npm package manager.
