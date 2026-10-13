@@ -4,6 +4,15 @@ const storeId = process.env.PRINTFUL_STORE_ID;
 const expectedStoreId = process.argv[2];
 const endpoint = process.env.PRINTFUL_PRODUCT_ENDPOINT || "/store/products";
 
+if (
+  process.argv.includes("--if-configured") &&
+  !process.env.PRINTFUL_API_TOKEN &&
+  !storeId
+) {
+  console.log("Printful API verification skipped: credentials not configured.");
+  process.exit(0);
+}
+
 try {
   if (!process.env.PRINTFUL_API_TOKEN || !/^\d+$/.test(storeId || ""))
     throw new Error("missing_configuration");
