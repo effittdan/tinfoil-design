@@ -1,22 +1,24 @@
 # Tinfoil commerce setup
 
-Site: https://tinfoilhat.netlify.app
+Site: https://tinfoildesign.com (SiteGround); preview: https://tinfoilhat.netlify.app
 GitHub: https://github.com/effittdan/tinfoil-design
-Observed merchant accounts: Printful Tinfoil Hat Design (WooCommerce, store ID 4711201), PayPal effitt account per user, Stripe effitt, LLC.
+Observed merchant accounts: Printful Tinfoil Hat v2 (manual/API, store ID 18898875); preserved Tinfoil Hat Design (WooCommerce, store ID 4711201); PayPal effitt account per user; Stripe effitt, LLC.
 
-## Connection status / October 12, 2026
+## Connection status / October 13, 2026
 
 - Stripe: dedicated restricted test key created with Checkout Sessions and Tax Calculations/Transactions access; active test webhook `Tinfoil storefront - test` subscribes to the two successful Checkout events below. Credentials are stored as secret production-context Functions variables in Netlify, never in the repository. A read-only Checkout Sessions API authentication test passed. End-to-end payment flow testing is still required.
-- Printful: single-store token configuration prepared for Tinfoil Hat Design; creation awaits the merchant's registration contact email. Old WooCommerce products remain untouched.
+- Printful: Tinfoil Hat v2 is connected using a dedicated single-store token, created October 13, 2026 and expiring October 13, 2027. `PRINTFUL_API_TOKEN` and `PRINTFUL_STORE_ID=18898875` are saved privately in the SiteGround Node project. Scopes: Sync products/read, Orders/read, Orders. The merchant explicitly approved the Orders permission, which technically permits confirmation; application behavior remains draft-only. No product/file/webhook write permission was granted. SiteGround's completed deployment log verifies a successful authenticated GET to `/store/products`; the new store is empty. No test order or fulfillment charge was created. Old WooCommerce products remain untouched.
 - PayPal: developer dashboard requires a fresh merchant login before app creation.
 - Private database: awaiting a dedicated database choice. No paid database or plan upgrade was purchased.
-- Netlify Forms enabled for contact and frequency signups. Storefront is published with checkout disabled.
+- Netlify Forms are enabled on the preview only. SiteGround form routing/storage remains incomplete (see deployment notes). Storefront checkout is disabled.
 
 ## 1. Printful
 
-The existing store has 17 older synced products, including products unrelated to the new design collection. Do not map Black File to an old graphic just because the garment matches.
+The preserved WooCommerce store has 17 older synced products, including products unrelated to the new design collection. Do not map Black File to an old graphic just because the garment matches. The new manual/API store is Tinfoil Hat v2, ID `18898875`, and had no published products at the verified connection check.
 
-Prefer a separate manual/API store for the new catalog, retaining the WooCommerce store as history. Alternatively, publish reviewed new products into the existing store and verify that its API supports the selected product endpoint. Token scope must match the chosen store. Required access: reading products/variants, shipping quotes, reading orders, and creating draft orders. Do not enable order confirmation spending during integration tests.
+Use Tinfoil Hat v2 for the new catalog, retaining the WooCommerce store as history. Token access is limited to v2. Printful combines draft creation and confirmation under its Orders permission; the application never requests order confirmation. Product creation, reviewed variant mappings, shipping/tax/payment tests and a successful draft-order test are still outstanding.
+
+`npm run printful:verify -- 18898875` performs a read-only product lookup using private environment variables. The standard build's `postbuild` hook runs this check when Printful credentials are configured and fails on a missing paired setting, wrong configured store, invalid response or failed authentication. Builds without either Printful variable skip the check, so local builds and the unconnected Netlify preview remain available. Logs contain the store ID and whether products exist, never credentials or customer records.
 
 Set `PRINTFUL_API_TOKEN` and `PRINTFUL_STORE_ID` privately. Run `npm run catalog:sync`; it saves non-secret product/variant identifiers to `data/printful-discovery.json`. Assign reviewed sync product IDs to corresponding slugs in `data/fulfillment.json`, e.g. `{ "black-file": 123456789 }` (example ID, never use it). Verify each color, size, artwork placement, print file status, SKU, currency, retail price and availability. The importer and API use `/store/products` for manual/API stores; set `PRINTFUL_PRODUCT_ENDPOINT=/sync/products` if using a WooCommerce store's Ecommerce Platform Sync API.
 
