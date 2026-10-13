@@ -7,6 +7,7 @@
     "start": "node server/http.mjs",
     "dev": "vite --host 127.0.0.1",
     "build": "vite build && node scripts/routes.mjs",
+    "build:siteground": "npm run build && npm run printful:verify -- 18898875",
     "test": "node --test tests/*.test.mjs",
     "assets": "node scripts/assets.mjs",
     "catalog:sync": "node --env-file-if-exists=.env scripts/sync-printful.mjs",
