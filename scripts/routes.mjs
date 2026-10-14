@@ -25,10 +25,20 @@ for (const route of routes) {
     : `${route.split("/").at(-1).replaceAll("-", " ")} | Tinfoil Hat`;
   await writeFile(
     "dist/" + route + "/index.html",
-    html.replace(
-      "<title>Tinfoil Hat | Protect the Signal</title>",
-      `<title>${title}</title>`,
-    ),
+    html
+      .replace(
+        "<title>Tinfoil Hat | Protect the Signal</title>",
+        `<title>${title}</title>`,
+      )
+      .replace(
+        /(<meta\s+name="description"\s+content=")[^"]*("\s*\/>)/,
+        (match, start, end) =>
+          p?.description
+            ? start +
+              p.description.replaceAll("&", "&amp;").replaceAll('"', "&quot;") +
+              end
+            : match,
+      ),
   );
 }
 await writeFile("dist/404.html", html);

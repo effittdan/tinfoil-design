@@ -191,7 +191,13 @@ export default async function handler(req, context = {}) {
     if (path === "quote") {
       await limitQuotes(context.ip || "shared");
       const address = validateAddress(b.address, countries()),
-        items = selectLines(b.cart, await loadCatalog());
+        items = selectLines(
+          b.cart,
+          await loadCatalog({
+            ids: Array.isArray(b.cart) ? b.cart.map((line) => line?.id) : [],
+            fresh: true,
+          }),
+        );
       const subtotal = items.reduce((s, i) => s + i.unitCents * i.quantity, 0);
       if (subtotal > 500000)
         throw new PublicError("Order total exceeds the limit.");
@@ -293,7 +299,10 @@ export default async function handler(req, context = {}) {
           size: i.size,
           qty: i.quantity,
         })),
-        await loadCatalog(),
+        await loadCatalog({
+          ids: o.payload.items.map((item) => item.id),
+          fresh: true,
+        }),
       );
       if (
         fresh.some(
@@ -330,6 +339,23 @@ export default async function handler(req, context = {}) {
                   mode: "payment",
                   payment_method_types: ["card"],
                   customer_email: p.address.email,
+                  branding_settings: {
+                    display_name: "Tinfoil Hat",
+                    background_color: "#f5f2e8",
+                    button_color: "#171717",
+                  },
+                  payment_intent_data: {
+                    receipt_email: p.address.email,
+                    statement_descriptor_suffix: "TINFOIL HAT",
+                    description:
+                      "Tinfoil Hat order " + o.id.slice(0, 8).toUpperCase(),
+                  },
+                  custom_text: {
+                    submit: {
+                      message:
+                        "Made to order. Damaged or incorrect items: replacement or refund. No size or change-of-mind returns. Support: orders@tinfoildesign.com",
+                    },
+                  },
                   metadata: { orderId: o.id, storefront: "tinfoil-hat" },
                   success_url:
                     origin + "/order?session_id={CHECKOUT_SESSION_ID}",
@@ -360,7 +386,7 @@ export default async function handler(req, context = {}) {
                       })),
                   ],
                 },
-                { idempotencyKey: o.id },
+                { idempotencyKey: o.id, apiVersion: "2025-09-30.clover" },
               );
           url = session.url;
           pid = session.id;

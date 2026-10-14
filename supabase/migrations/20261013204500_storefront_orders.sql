@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS tinfoil_orders (id uuid PRIMARY KEY, token_hash text NOT NULL, payload jsonb NOT NULL, provider text, provider_id text UNIQUE, paid boolean NOT NULL DEFAULT false, payment_id text UNIQUE, printful_id bigint, fulfillment_state text NOT NULL DEFAULT 'pending', created_at timestamptz NOT NULL DEFAULT now(), expires_at timestamptz NOT NULL, error_code text); CREATE TABLE IF NOT EXISTS tinfoil_events (provider text NOT NULL, event_id text NOT NULL, created_at timestamptz NOT NULL DEFAULT now(), PRIMARY KEY(provider,event_id));
+CREATE TABLE IF NOT EXISTS tinfoil_rate_limits(key text PRIMARY KEY,hits integer NOT NULL,created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS tinfoil_submissions(id uuid PRIMARY KEY,form text NOT NULL,email text NOT NULL,name text,message text,created_at timestamptz NOT NULL DEFAULT now());
+ALTER TABLE public.tinfoil_orders ENABLE ROW LEVEL SECURITY;
+REVOKE ALL ON TABLE public.tinfoil_orders FROM anon, authenticated;
+ALTER TABLE public.tinfoil_events ENABLE ROW LEVEL SECURITY;
+REVOKE ALL ON TABLE public.tinfoil_events FROM anon, authenticated;
+ALTER TABLE public.tinfoil_rate_limits ENABLE ROW LEVEL SECURITY;
+REVOKE ALL ON TABLE public.tinfoil_rate_limits FROM anon, authenticated;
+ALTER TABLE public.tinfoil_submissions ENABLE ROW LEVEL SECURITY;
+REVOKE ALL ON TABLE public.tinfoil_submissions FROM anon, authenticated;

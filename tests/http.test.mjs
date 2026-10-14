@@ -8,14 +8,17 @@ test("standalone host serves routes and fails closed without credentials", async
   try {
     const product = await fetch(base + "/product/black-file");
     assert.equal(product.status, 200);
-    assert.match(await product.text(), /Black File Tee/);
+    assert.match(await product.text(), /Black File Dark Tee/);
+    const light = await fetch(base + "/product/black-file-light");
+    assert.equal(light.status, 200);
+    assert.match(await light.text(), /Black File Light Tee/);
     assert.equal((await fetch(base + "/assets/missing.js")).status, 404);
     assert.equal((await fetch(base + "/package.json")).status, 404);
     const config = await (await fetch(base + "/api/capabilities")).json();
     assert.equal(config.enabled, false);
     assert.equal(
       (
-        await fetch(base + "/", {
+        await fetch(base + "/api/submission", {
           method: "POST",
           headers: {
             "Content-Type": "application/x-www-form-urlencoded",
@@ -28,7 +31,7 @@ test("standalone host serves routes and fails closed without credentials", async
     );
     assert.equal(
       (
-        await fetch(base + "/", {
+        await fetch(base + "/api/submission", {
           method: "POST",
           headers: {
             "Content-Type": "application/x-www-form-urlencoded",

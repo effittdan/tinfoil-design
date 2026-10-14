@@ -1,11 +1,23 @@
 import pg from "pg";
+import { fileURLToPath } from "node:url";
 let pool;
 export function database() {
   if (!pool) {
     const url = process.env.DATABASE_URL || process.env.NETLIFY_DB_URL;
     if (!url) throw Error("Order database not configured");
+    const connection = new URL(url);
+    if (
+      connection.hostname.endsWith(".supabase.com") ||
+      connection.hostname.endsWith(".supabase.co")
+    ) {
+      connection.searchParams.set("sslmode", "verify-full");
+      connection.searchParams.set(
+        "sslrootcert",
+        fileURLToPath(new URL("./certs/supabase-ca.crt", import.meta.url)),
+      );
+    }
     pool = new pg.Pool({
-      connectionString: url,
+      connectionString: connection.toString(),
       max: 3,
       connectionTimeoutMillis: 10000,
       idleTimeoutMillis: 10000,

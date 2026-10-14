@@ -75,6 +75,26 @@ const $ = (s) => document.querySelector(s),
           "'": "&#39;",
         })[c],
     );
+const swatchColors = {
+  Black: "#1b1b1c",
+  "True Navy": "#1e2c4a",
+  Red: "#bb1035",
+  Graphite: "#3e3737",
+  Sage: "#49482e",
+  Midnight: "#3a4e63",
+  Hemp: "#4f5232",
+  Pepper: "#514f4c",
+  Brick: "#8d4b54",
+  Denim: "#565a67",
+  Grey: "#92928f",
+  Violet: "#9a8ad2",
+  Granite: "#a6abaa",
+  Khaki: "#b3ab8b",
+  "Washed Denim": "#98aed1",
+  Bay: "#b8bfab",
+  "Lagoon Blue": "#92dedb",
+  Ivory: "#fff4d9",
+};
 const money = (n) =>
   new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(
     n,
@@ -91,11 +111,16 @@ function image(
   color = p.defaultColor || (p.id === "abduction-protocol" ? "Ivory" : "Black"),
 ) {
   const variant = p.variants?.find((v) => v.color === color) || p.variants?.[0];
+  if (view === "styled" && p.styledImages?.[color])
+    return p.styledImages[color];
+  if (view === "photo" && p.colorImages?.[color]) return p.colorImages[color];
   if (view === "photo" && variant?.image?.startsWith("https://"))
     return variant.image;
+  if (p.artworkId)
+    return `/assets/artwork/${p.artworkId}-${p.artworkMode}.webp`;
   return view === "photo" && p.feature
     ? `/assets/products/${p.id}.webp`
-    : `/assets/artwork/${p.id}-${color === "Ivory" ? "light" : "dark"}.webp`;
+    : `/assets/artwork/${p.id}-${p.prepped || p.lightColors?.includes(color) || color === "Ivory" ? "light" : "dark"}.webp`;
 }
 function linePrice(line) {
   const p = catalog.find((p) => p.id === line.id);
@@ -106,8 +131,11 @@ function linePrice(line) {
     0
   );
 }
+function leadImage(p) {
+  return p.styledImages?.[p.defaultColor] || image(p);
+}
 function card(p) {
-  return `<article class="product-card"><a class="product-image ${p.feature ? "" : p.prepped ? "art-only light-art" : "art-only"}" href="/product/${p.id}"><img src="${image(p)}" alt="${escape(p.name)}" loading="lazy" width="800" height="800"><span class="edition">${escape(p.collection)}</span></a><div class="product-caption"><div><a href="/product/${p.id}"><h3>${escape(p.name)}</h3></a><span>${money(price(p))}${p.variants.length ? "" : " / preview"}</span></div><a href="/product/${p.id}" class="icon-link" aria-label="View ${escape(p.name)}">${icon("arrow-right")}</a></div></article>`;
+  return `<article class="product-card"><a class="product-image ${p.variants.length || p.colorImages ? "" : p.prepped ? "art-only light-art" : "art-only"}" href="/product/${p.id}"><img src="${leadImage(p)}" alt="${escape(p.name)}" loading="lazy" width="800" height="800"><span class="edition">${escape(p.collection)}</span></a><div class="product-caption"><div><a href="/product/${p.id}"><h3>${escape(p.name)}</h3></a><span>${money(price(p))}${p.variants.length ? "" : " / preview"}</span></div><a href="/product/${p.id}" class="icon-link" aria-label="View ${escape(p.name)}">${icon("arrow-right")}</a></div></article>`;
 }
 function signup() {
   return `<section class="frequency"><div><p class="kicker">The Bunker / Members receiving clearly</p><h2>Join the Frequency.</h2><p>A classified drip-feed of new drops, strange ideas, field notes, sales, encoded nonsense, and suspicious discounts.</p></div><form class="signup" name="frequency" method="POST" action="/" data-netlify="true"><input type="hidden" name="form-name" value="frequency"><input type="text" name="bot-field" class="trap" tabindex="-1" autocomplete="off"><label class="sr-only" for="signup-email">Email address</label><div><input id="signup-email" name="email" type="email" required placeholder="Enter your authorized frequency"><button type="submit" class="button yellow">Join ${icon("arrow-right")}</button></div><small>No spam. No lizard people. Probably.</small><p class="form-result" role="status"></p></form></section>`;
@@ -119,7 +147,7 @@ function footer() {
   return `<footer><a class="logo" href="/">TINFOIL HAT<span>Question everything</span></a><div class="footer-links"><a href="/shop">The Archive</a><a href="/about">Our Story</a><a href="/shipping">Shipping & Returns</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div><p>Conspiracy-inspired apparel for the beautifully suspicious.</p><p class="footer-end">Protect the Signal. <span>© ${new Date().getFullYear()} Tinfoil Hat</span></p></footer>`;
 }
 function home() {
-  return `<section class="hero"><div class="hero-copy"><p class="scrap-note">Some questions should never be forgotten.</p><h1><span>Protect</span><span>the Signal.</span></h1><p>Conspiracy-inspired apparel<br>for the beautifully suspicious.</p>${link("/shop", "Shop the Archive", "button outline")}<p class="scribble">The official story has terrible merch.</p></div><a class="hero-evidence" href="/product/black-file"><img src="/assets/products/black-file.webp" alt="Black File Tee revealed through torn evidence papers" width="1000" height="1000"><span class="tag">Freshly decoded / Black File</span><span class="evidence-caption">Classified until never.</span></a></section><section class="section featured"><h2 class="torn-title">Field-Issued Apparel for Unapproved Thoughts.</h2><div class="product-grid">${catalog
+  return `<section class="hero"><div class="hero-copy"><p class="scrap-note">Some questions should never be forgotten.</p><h1><span>Protect</span><span>the Signal.</span></h1><p>Conspiracy-inspired apparel<br>for the beautifully suspicious.</p>${link("/shop", "Shop the Archive", "button outline")}<p class="scribble">The official story has terrible merch.</p></div><a class="hero-evidence" href="/product/black-file"><img src="${leadImage(catalog.find((p) => p.id === "black-file"))}" alt="Black File Dark Tee in Black styled mockup" width="1000" height="1000"><span class="tag">Freshly decoded / Black File</span><span class="evidence-caption">Classified until never.</span></a></section><section class="section featured"><h2 class="torn-title">Field-Issued Apparel for Unapproved Thoughts.</h2><div class="product-grid">${catalog
     .filter((p) => p.feature)
     .map(card)
     .join(
@@ -145,9 +173,7 @@ function renderShopResults() {
 function product(p) {
   const colors = p.variants.length
     ? [...new Set(p.variants.map((v) => v.color))]
-    : p.prepped
-      ? ["Ivory"]
-      : ["Black", "Pepper", "Ivory"];
+    : p.colors || (p.prepped ? ["Ivory"] : ["Black", "Pepper", "Ivory"]);
   const initial =
     p.defaultColor && colors.includes(p.defaultColor)
       ? p.defaultColor
@@ -156,8 +182,8 @@ function product(p) {
         : colors[0];
   const sizes = p.variants.length
     ? [...new Set(p.variants.map((v) => v.size))]
-    : ["S", "M", "L", "XL", "XXL"];
-  return `<section class="product-page"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/shop">The Archive</a> / <a href="/shop?collection=${encodeURIComponent(p.collection)}">${escape(p.collection)}</a></nav><div class="product-layout"><div class="gallery"><div class="product-stage ${p.feature ? "" : p.prepped ? "art-only light-art" : "art-only"}"><img id="main-product" src="${image(p)}" alt="${escape(p.name)}" width="1200" height="1200"><button type="button" class="zoom-button icon-button" aria-label="Enlarge product image">${icon("zoom-in")}</button><span class="tag">Evidence / ${escape(p.id)}</span></div><div class="thumbnails" role="group" aria-label="Product image views"><button type="button" data-view="photo" aria-pressed="true"><img src="${image(p)}" alt="Garment"><span>Garment</span></button><button type="button" data-view="art" aria-pressed="false"><img src="${image(p, "art", initial)}" alt="Original artwork"><span>Artwork</span></button></div><p class="image-note">Original artwork available in the gallery.</p></div><div class="purchase paper"><p class="kicker">${escape(p.collection)} / ${p.feature ? "Freshly decoded" : "Archive edition"}</p><h1>${escape(p.name)}</h1><p class="price" id="product-price">${money(price(p))} ${p.variants.length ? "" : "<small>Preview price</small>"}</p><p>${escape(p.description)}</p><form id="product-form" data-id="${p.id}"><fieldset><legend>Color: <span id="color-name">${initial}</span></legend><div class="swatches">${colors.map((c) => `<label title="${escape(c)}"><input type="radio" name="color" value="${escape(c)}" ${c === initial ? "checked" : ""}><span style="--swatch:${c === "Black" ? "#171717" : c === "Pepper" ? "#575954" : c === "Ivory" ? "#eee9db" : "#777"}"></span><small>${escape(c)}</small></label>`).join("")}</div></fieldset><fieldset><legend>Size</legend><div class="sizes">${sizes.map((s) => `<label><input type="radio" name="size" value="${s}" required><span>${s}</span></label>`).join("")}</div><button type="button" class="text-link" data-size-guide>Fit notes ${icon("arrow-right")}</button></fieldset><div class="quantity"><span>Quantity</span><button type="button" data-qty="-1" aria-label="Decrease quantity">${icon("minus")}</button><input type="number" name="qty" value="1" min="1" max="10" aria-label="Quantity"><button type="button" data-qty="1" aria-label="Increase quantity">${icon("plus")}</button></div><p class="form-error" role="alert"></p><button class="button yellow full" type="submit">Add Evidence ${icon("shopping-bag")}</button></form><p class="small">This is not just a shirt. It is a wearable transmission.</p><div class="details"><details open><summary>${icon("shirt")} Fit & field notes ${icon("chevron-down")}</summary><p>Fits like standard Earth apparel. If you are between sizes, size up for a relaxed, “I have documents in my trunk” silhouette.</p></details><details><summary>${icon("radio")} Care instructions ${icon("chevron-down")}</summary><p>Wash cold. Tumble dry low. Do not iron the signal. Do not dry clean unless your dry cleaner has clearance.</p></details><details><summary>${icon("arrow-right")} Terrestrial dispatch ${icon("chevron-down")}</summary><p>Shipping is calculated at checkout. Products are made to order. Your order confirmation will carry the latest dispatch information.</p><a href="/shipping">Shipping & returns</a></details></div></div></div><div class="product-story paper"><h2>Wear the question.</h2><p>${productCopy}</p></div><h2 class="torn-title">Related Apparel.</h2><div class="product-grid related">${catalog
+    : p.sizes || ["S", "M", "L", "XL", "XXL"];
+  return `<section class="product-page"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/shop">The Archive</a> / <a href="/shop?collection=${encodeURIComponent(p.collection)}">${escape(p.collection)}</a></nav><div class="product-layout"><div class="gallery"><div class="product-stage ${p.variants.length || p.colorImages ? "" : p.prepped ? "art-only light-art" : "art-only"}"><img id="main-product" src="${image(p)}" alt="${escape(p.name)}" width="1200" height="1200"><button type="button" class="zoom-button icon-button" aria-label="Enlarge product image">${icon("zoom-in")}</button><span class="tag">Evidence / ${escape(p.id)}</span></div><div class="thumbnails" role="group" aria-label="Product image views"><button type="button" data-view="photo" aria-pressed="true"><img src="${image(p)}" alt="Garment"><span>Garment</span></button><button type="button" data-view="art" aria-pressed="false"><img src="${image(p, "art", initial)}" alt="Original artwork"><span>Artwork</span></button>${p.styledImages ? `<button type="button" data-view="styled" aria-pressed="false" ${p.styledImages[initial] ? "" : "hidden"}><img src="${image(p, "styled", initial)}" alt="Styled mockup"><span>Styled mockup</span></button>` : ""}</div><p class="image-note">Original artwork available in the gallery.</p></div><div class="purchase paper"><p class="kicker">${escape(p.collection)} / ${p.feature ? "Freshly decoded" : "Archive edition"}</p><h1>${escape(p.name)}</h1><p class="price" id="product-price">${money(price(p))} ${p.variants.length ? "" : "<small>Preview price</small>"}</p><p>${escape(p.description)}</p>${p.garment ? `<p class="small">${escape(p.garment)}</p>` : ""}<form id="product-form" data-id="${p.id}"><fieldset><legend>Color: <span id="color-name">${initial}</span></legend><div class="swatches">${colors.map((c) => `<label title="${escape(c)}"><input type="radio" name="color" value="${escape(c)}" ${c === initial ? "checked" : ""}><span style="--swatch:${swatchColors[c] || "#777"}"></span><small>${escape(c)}</small></label>`).join("")}</div></fieldset><fieldset><legend>Size</legend><div class="sizes">${sizes.map((s) => `<label><input type="radio" name="size" value="${s}" required><span>${s}</span></label>`).join("")}</div><button type="button" class="text-link" data-size-guide>Fit notes ${icon("arrow-right")}</button></fieldset><div class="quantity"><span>Quantity</span><button type="button" data-qty="-1" aria-label="Decrease quantity">${icon("minus")}</button><input type="number" name="qty" value="1" min="1" max="10" aria-label="Quantity"><button type="button" data-qty="1" aria-label="Increase quantity">${icon("plus")}</button></div><p class="form-error" role="alert"></p><button class="button yellow full" type="submit">Add Evidence ${icon("shopping-bag")}</button></form><p class="small">This is not just a shirt. It is a wearable transmission.</p><div class="details"><details open><summary>${icon("shirt")} Fit & field notes ${icon("chevron-down")}</summary><p>${escape(p.fitNotes || "Fits like standard Earth apparel. If you are between sizes, size up for a relaxed silhouette.")}</p></details><details><summary>${icon("radio")} Care instructions ${icon("chevron-down")}</summary><p>Wash cold. Tumble dry low. Do not iron the signal. Do not dry clean unless your dry cleaner has clearance.</p></details><details><summary>${icon("arrow-right")} Terrestrial dispatch ${icon("chevron-down")}</summary><p>Shipping is calculated at checkout. Products are made to order. Your order confirmation will carry the latest dispatch information.</p><a href="/shipping">Shipping & returns</a></details></div></div></div><div class="product-story paper"><h2>Wear the question.</h2><p>${escape(p.story || productCopy)}</p></div><h2 class="torn-title">Related Apparel.</h2><div class="product-grid related">${catalog
     .filter((x) => x.id !== p.id && x.feature)
     .slice(0, 3)
     .map(card)
@@ -170,7 +196,7 @@ function cartPage() {
           .map((line, i) => {
             const p = catalog.find((p) => p.id === line.id);
             return p
-              ? `<article class="cart-item paper"><a href="/product/${p.id}"><img src="${image(p)}" alt="${escape(p.name)}" width="160" height="160"></a><div><a href="/product/${p.id}"><h2>${escape(p.name)}</h2></a><p>${escape(line.color)} / ${escape(line.size)}</p><div class="quantity"><button data-cart-qty="${i}" data-delta="-1" aria-label="Decrease ${escape(p.name)} quantity">${icon("minus")}</button><span>${line.qty}</span><button data-cart-qty="${i}" data-delta="1" aria-label="Increase ${escape(p.name)} quantity">${icon("plus")}</button><button class="remove" data-remove="${i}" aria-label="Remove ${escape(p.name)}">${icon("x")}</button></div></div><strong>${money(linePrice(line) * line.qty)}</strong></article>`
+              ? `<article class="cart-item paper"><a href="/product/${p.id}"><img src="${image(p, "photo", line.color)}" alt="${escape(p.name)}" width="160" height="160"></a><div><a href="/product/${p.id}"><h2>${escape(p.name)}</h2></a><p>${escape(line.color)} / ${escape(line.size)}</p><div class="quantity"><button data-cart-qty="${i}" data-delta="-1" aria-label="Decrease ${escape(p.name)} quantity">${icon("minus")}</button><span>${line.qty}</span><button data-cart-qty="${i}" data-delta="1" aria-label="Increase ${escape(p.name)} quantity">${icon("plus")}</button><button class="remove" data-remove="${i}" aria-label="Remove ${escape(p.name)}">${icon("x")}</button></div></div><strong>${money(linePrice(line) * line.qty)}</strong></article>`
               : "";
           })
           .join("")
@@ -223,25 +249,25 @@ function info(route) {
       "Shipping & Returns",
       "Dispatched through approved terrestrial channels.",
       "Our apparel is made to order. Shipping and tax are shown before payment. Availability and dispatch estimates depend on the garment and delivery address.",
-      "Checkout will open after the shipping and return policy is confirmed. For questions about fit, damaged items, or an existing order, contact the brand through the contact page.",
+      'If your item arrives damaged or incorrect, email <a href="mailto:orders@tinfoildesign.com">orders@tinfoildesign.com</a> with your order number and photos so we can arrange a replacement or refund. Because each shirt is made to order, we do not accept returns for size changes or a change of mind. Please check the fit notes before ordering.',
     ],
     privacy: [
       "Privacy",
       "Keep your signal yours.",
-      "Your cart is saved in this browser. Newsletter signups are submitted to our email-list form. If you place an order, the delivery and payment information required for that order is handled by our payment providers and fulfillment partner.",
-      "We do not request payment-card details on this site. Card and PayPal payments are handled on the provider’s checkout. A final business privacy policy will be published before commerce opens.",
+      "Your cart is saved in this browser. We collect the contact details you submit through our forms and the information needed to process your order, including your name, email and delivery address. We use this information to answer inquiries, send requested updates, process payments and fulfill orders.",
+      'Stripe handles card payments; we do not store your full card details. Printful receives the details needed to make and ship your order. Our hosting and database providers store submissions and order records. For privacy questions or requests concerning your information, email <a href="mailto:info@tinfoildesign.com">info@tinfoildesign.com</a>.',
     ],
     terms: [
       "Terms",
       "The official uniform of unofficial theories.",
       "The stories and transmissions here are brand mythology, humor, and creative expression. Apparel designs celebrate curiosity and do not establish the truth of any theory.",
-      "The archive is currently available for browsing. Product prices shown in preview mode are illustrative. Final terms, merchant identity, taxes, delivery, and returns will be published before sales begin.",
+      'Tinfoil Hat is operated by effitt, LLC. Prices are in US dollars. Shipping and applicable tax are shown before payment. Shirts are made to order, and availability depends on the selected size and color. Our <a href="/shipping">shipping and return policy</a> applies to purchases. Contact <a href="mailto:orders@tinfoildesign.com">orders@tinfoildesign.com</a> for order assistance.',
     ],
     contact: [
       "Contact the Bunker",
       "Transmission channel open.",
-      "Questions about a design, an order, or a suspiciously comfortable shirt? Use the contact form below.",
-      "We read incoming transmissions. No clearance required.",
+      'Questions about a design or a suspiciously comfortable shirt? Email <a href="mailto:info@tinfoildesign.com">info@tinfoildesign.com</a> or use the contact form below.',
+      'For order questions, damaged items or incorrect items, email <a href="mailto:orders@tinfoildesign.com">orders@tinfoildesign.com</a> with your order number. No clearance required.',
     ],
   };
   const a = pages[route];
@@ -363,6 +389,12 @@ document.addEventListener("click", (e) => {
     const p = catalog.find((p) => p.id === $("#product-form").dataset.id),
       color = $('[name="color"]:checked').value;
     $("#main-product").src = image(p, b.dataset.view, color);
+    $(".image-note").textContent =
+      b.dataset.view === "styled"
+        ? p.styledImageMethod === "composite"
+          ? "Original garment image with a styled collection background."
+          : "AI-styled mockup. See Garment for the Printful print and color reference."
+        : "Original artwork available in the gallery.";
     document
       .querySelectorAll("[data-view]")
       .forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
@@ -373,7 +405,13 @@ document.addEventListener("click", (e) => {
     $("#image-dialog").showModal();
   }
   if (b.hasAttribute("data-close-dialog")) b.closest("dialog").close();
-  if (b.hasAttribute("data-size-guide")) $("#fit-dialog").showModal();
+  if (b.hasAttribute("data-size-guide")) {
+    const p = catalog.find((p) => p.id === $("#product-form").dataset.id);
+    $("#fit-dialog p").textContent =
+      p?.fitNotes ||
+      "If you are between sizes, size up for a relaxed fit. Product-specific size measurements will appear once the garment is connected.";
+    $("#fit-dialog").showModal();
+  }
   if (b.dataset.cartQty !== undefined) {
     const i = Number(b.dataset.cartQty);
     cart[i].qty = Math.max(
@@ -406,12 +444,35 @@ document.addEventListener("change", (e) => {
     const color = $('[name="color"]:checked').value;
     $("#color-name").textContent = color;
     const p = catalog.find((p) => p.id === $("#product-form").dataset.id);
-    const art = $('[data-view="art"]').getAttribute("aria-pressed") === "true";
-    $("#main-product").src = image(p, art ? "art" : "photo", color);
+    let view = $('[data-view][aria-pressed="true"]').dataset.view;
+    const styledButton = $('[data-view="styled"]');
+    if (styledButton) {
+      styledButton.hidden = !p.styledImages?.[color];
+      if (styledButton.hidden && view === "styled") view = "photo";
+    }
+    document.querySelectorAll("[data-view]").forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.view === view));
+      if (!button.hidden)
+        button.querySelector("img").src = image(p, button.dataset.view, color);
+    });
+    $("#main-product").src = image(p, view, color);
+    $("#main-product").alt = `${p.name} in ${color}`;
+    $(".image-note").textContent =
+      view === "styled"
+        ? p.styledImageMethod === "composite"
+          ? "Original garment image with a styled collection background."
+          : "AI-styled mockup. See Garment for the Printful print and color reference."
+        : "Original artwork available in the gallery.";
     const variant = p.variants.find(
       (v) => v.color === color && v.size === $('[name="size"]:checked')?.value,
     );
-    if (variant) $("#product-price").textContent = money(variant.price);
+    const colorVariants = p.variants.filter((v) => v.color === color);
+    $("#product-price").textContent = money(
+      variant?.price ??
+        (colorVariants.length
+          ? Math.min(...colorVariants.map((v) => v.price))
+          : p.price),
+    );
     if (live)
       document.querySelectorAll('[name="size"]').forEach((input) => {
         input.disabled = !p.variants.some(
@@ -451,11 +512,14 @@ document.addEventListener("submit", async (e) => {
       s = f.querySelector(".form-result");
     b.disabled = true;
     try {
-      const r = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(new FormData(f)),
-      });
+      const r = await fetch(
+        location.hostname.endsWith(".netlify.app") ? "/" : "/api/submission",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(new FormData(f)),
+        },
+      );
       if (
         !r.ok ||
         location.hostname === "127.0.0.1" ||

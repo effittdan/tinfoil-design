@@ -75,6 +75,18 @@ async function receiveForm(req, body, origin, ip) {
       form === "contact" ? message : null,
     ],
   );
+  const delivery = await fetch("https://tinfoilhat.netlify.app/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({
+      "form-name": form,
+      "bot-field": "",
+      email,
+      ...(form === "contact" ? { name, message } : {}),
+    }),
+    signal: AbortSignal.timeout(15000),
+  });
+  if (!delivery.ok) throw Error("Form delivery unavailable");
   return new Response(null, { status: 204 });
 }
 export function storefrontServer({
@@ -103,6 +115,13 @@ export function storefrontServer({
             { status: "ok" },
             { headers: { "Cache-Control": "no-store" } },
           ),
+        );
+      if (
+        req.method === "POST" &&
+        ["/", "/api/submission"].includes(url.pathname)
+      )
+        return await send(
+          await receiveForm(req, await bodyOf(req), origin, ip),
         );
       if (url.pathname.startsWith("/api/")) {
         const body = ["GET", "HEAD"].includes(req.method)

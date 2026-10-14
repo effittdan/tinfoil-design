@@ -1,5 +1,6 @@
 import { database } from "./db.mjs";
 import { printful, stripe } from "./providers.mjs";
+import { automaticFulfillment } from "./automatic-fulfillment.mjs";
 // Hold a row lock so concurrent webhook retries cannot create competing drafts.
 export async function fulfill(id) {
   const db = await database().connect();
@@ -46,12 +47,16 @@ export async function fulfill(id) {
           total: (p.total / 100).toFixed(2),
         },
       }));
+    const outcome =
+      process.env.PRINTFUL_AUTO_CONFIRM === "true"
+        ? await automaticFulfillment(result, p.total, printful)
+        : { state: result.status || "draft", error: null };
     await db.query(
-      "UPDATE tinfoil_orders SET printful_id=$2,fulfillment_state=$3,error_code=NULL WHERE id=$1",
-      [id, result.id, "draft"],
+      "UPDATE tinfoil_orders SET printful_id=$2,fulfillment_state=$3,error_code=$4 WHERE id=$1",
+      [id, result.id, outcome.state, outcome.error],
     );
     await db.query("COMMIT");
-    // Drafts deliberately require merchant review before they can charge fulfillment funds.
+    // Automatic confirmation is opt-in after the merchant's billing method is verified.
   } catch (e) {
     await db.query("ROLLBACK");
     await database().query(

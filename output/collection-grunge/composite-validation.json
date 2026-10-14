@@ -1,0 +1,3722 @@
+[
+  {
+    "id": "numbers-station",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "123841129934cc2a83dec01931a97d14c0ec3e297df9c7e9c3e0c68078adf4e9",
+    "output": "output/collection-grunge/styled/numbers-station-black.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "26dbbb4691e889e6ce87738a2c05524bd39852e6fef125b4a50b487205c54835",
+    "output": "output/collection-grunge/styled/numbers-station-true-navy.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "7d75ff6e8a446994609f37663247b2582ce7a3b52e46ed1483eb8ca655c5a3fa",
+    "output": "output/collection-grunge/styled/numbers-station-red.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "05b164fce8c5b316be64b5b7f73b3b5b9f07925f0bd22913b3bf29701f9072d9",
+    "output": "output/collection-grunge/styled/numbers-station-graphite.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "40279d0b2cc8e061aca116d7c083e95b2df77df7294596d3e0461e2af4cf11ab",
+    "output": "output/collection-grunge/styled/numbers-station-sage.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "125bb5482ab74d1ef84f865d451f225115716f257ec05b55abbd62342f1c19ef",
+    "output": "output/collection-grunge/styled/numbers-station-midnight.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "d87905c98f53af79b9eedbe35ea067e6bfbcd1c2619f7c66c889b68f4fe6fa1c",
+    "output": "output/collection-grunge/styled/numbers-station-hemp.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "a998391d2d0fd8f16088daaac894e07450b4cd2c36fc2c3483ba937e383052bb",
+    "output": "output/collection-grunge/styled/numbers-station-pepper.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "949c4ac5599ef2777136628c3d632da7af6f1e902ecdb3a3e383ec39921997f2",
+    "output": "output/collection-grunge/styled/numbers-station-brick.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "cdff0e6cc4ad62d1c2853b3fda331f08153572d90c501c72d8ade829519980f1",
+    "output": "output/collection-grunge/styled/numbers-station-denim.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "f8a7ed28296a96415c08621b1e23d6d585efcf951dd220820872f2cbcf464d8b",
+    "output": "output/collection-grunge/styled/numbers-station-ivory.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "94c7dd7e6d678669df4df109ad38f3dd1ac0b6c72ef1cdac3623098028f73e95",
+    "output": "output/collection-grunge/styled/numbers-station-grey.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "82cd80f89722528ee7db08d9b3c558b633ba8133641e8ba8e8683eba3e988371",
+    "output": "output/collection-grunge/styled/numbers-station-violet.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "5af0c429457f6fbe0e80fbe4f4c78f473aa768f3a73ee3f184412f340c7e5697",
+    "output": "output/collection-grunge/styled/numbers-station-granite.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "67e3315fbce0722a96ecdc14eec410f90bba2ee28b9b4ae6e0b974f58e3e0ba2",
+    "output": "output/collection-grunge/styled/numbers-station-khaki.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "9e4dded4877ca8cb2e67eb057c83c301ec04483f0219c922be951b8da74b079b",
+    "output": "output/collection-grunge/styled/numbers-station-washed-denim.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "521fe5aeb62b3afe94165fa3ae0a13ba1dd101e3c82b468a69dfb097030a1841",
+    "output": "output/collection-grunge/styled/numbers-station-bay.png"
+  },
+  {
+    "id": "numbers-station",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "e0f20b607eb55246f578431a30ed88d98bb409eb186003255d0a29aaad3af5b3",
+    "output": "output/collection-grunge/styled/numbers-station-lagoon-blue.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "bfdf8b86e8917191b70ea270c53183988b1ab09c26cedcce923801c0820d5e1f",
+    "output": "output/collection-grunge/styled/ancient-tech-black.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "9d2213a1a6e6295e7c503c88f66270eec797bd557eddebe05a468d7b882c3041",
+    "output": "output/collection-grunge/styled/ancient-tech-true-navy.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "8fae9b2f25280f79e949fb256d656b66765c233325ddde2b92502a94bea9f1e3",
+    "output": "output/collection-grunge/styled/ancient-tech-red.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "37a7f2f1b598ef598a296ebc58a06375bc0aba14cc0ea3a20cea3a7f9c923d3d",
+    "output": "output/collection-grunge/styled/ancient-tech-graphite.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "f1d629c098f814ea8fd74fad6f2055cb5f06e7d7b5f31a223cda39b6f1ad91be",
+    "output": "output/collection-grunge/styled/ancient-tech-sage.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "fc09e2d16823a4f0d958d729d14d6b4c460bff2bcdb3635d14e644fb8e97d2f2",
+    "output": "output/collection-grunge/styled/ancient-tech-midnight.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "39248803a96800a7e918509839a76c42d64e6024dfdd9d60f3db1a7c02f8367d",
+    "output": "output/collection-grunge/styled/ancient-tech-hemp.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "04fd868d176c7f16fc6eb4da98b1e116b2ae6fadbe0684da3ce2334ddf9bd755",
+    "output": "output/collection-grunge/styled/ancient-tech-pepper.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "375891460bc7cb6108f61d71f7dae2524bf7038af71a20fff26f7d6e048fb287",
+    "output": "output/collection-grunge/styled/ancient-tech-brick.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "fbaae6091d72ea124e6b36473d1e75b949ed2e7abfff7dc6d9f1839d23701885",
+    "output": "output/collection-grunge/styled/ancient-tech-denim.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "94e086b68d63d836ce8c92ab2cce62e3dcafe5a625d87a9772196b04c054da9f",
+    "output": "output/collection-grunge/styled/ancient-tech-ivory.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "0cec59b4b41b9e15680f0d474a2c7ebd070362c0eb838d4ce56a062c86149ca6",
+    "output": "output/collection-grunge/styled/ancient-tech-grey.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "085cbb26d3c2b8182d6329a418a0050c091c67dfd27d673c29262d56eb43835f",
+    "output": "output/collection-grunge/styled/ancient-tech-violet.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "977892e2e7b0b24a52f8818ecb9726b989c59ee8a57d3e4ca98772c0184c0cc8",
+    "output": "output/collection-grunge/styled/ancient-tech-granite.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "c7af6a635617b520616ba0fdf095643bd0b8c427d5db3f44513077da7a848be4",
+    "output": "output/collection-grunge/styled/ancient-tech-khaki.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "985e20301c1947320f11302b5b246423acc9f58da0c67e58e135acda3569ea9f",
+    "output": "output/collection-grunge/styled/ancient-tech-washed-denim.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "3480c67a8dd1e24a1b96a941d2950f03ad9491fc53d34af80bb78ae59723e765",
+    "output": "output/collection-grunge/styled/ancient-tech-bay.png"
+  },
+  {
+    "id": "ancient-tech",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "221aedee6fbc9c438f1c445d5869fcfdcf606532f294fa8e7460e76e901146d5",
+    "output": "output/collection-grunge/styled/ancient-tech-lagoon-blue.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "117ebdb3653bf4776791c701124e2000b97b03f0b48ac46addb0c146f93c95f0",
+    "output": "output/collection-grunge/styled/abduction-protocol-black.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "c4a11ab0680d2ccc49aad4b7311252141ad17e59bd365e2a6feda81c8eba440f",
+    "output": "output/collection-grunge/styled/abduction-protocol-true-navy.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "d932c5b16414855b5dc281384faa35c627ce8decff4cd691a0a581cee72f2496",
+    "output": "output/collection-grunge/styled/abduction-protocol-red.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "0488b229b79e98dbc86450fb16174d5c8e09ccc74e99f6e0828068f3ef22dc97",
+    "output": "output/collection-grunge/styled/abduction-protocol-graphite.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "7a103a8051e8a850429469534bd9be902fd9bcf000d9f60b9344d043cc2ec095",
+    "output": "output/collection-grunge/styled/abduction-protocol-sage.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "438861d71393cd900993708084e2ca87a96c9663bae0c0b15a39d881193488ca",
+    "output": "output/collection-grunge/styled/abduction-protocol-midnight.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "516038885a18283fc8e14e086274ba1b73f11f452ad7486c1d51ad62a8fbf723",
+    "output": "output/collection-grunge/styled/abduction-protocol-hemp.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "4596f3f9e9d5f09eb569a8240177107b6454ce432906ae5ab9f4b0db91102b52",
+    "output": "output/collection-grunge/styled/abduction-protocol-pepper.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "42d53b666ae34085dded13e70a51879f2b9d1c3e19a47324de4e862f2d451178",
+    "output": "output/collection-grunge/styled/abduction-protocol-brick.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "2528a49410796c018a30d3bd7f48318bc0e87bc547fef7f2f85752fb61a4a770",
+    "output": "output/collection-grunge/styled/abduction-protocol-denim.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "7d0636d4e47dcd13bfd9587df6643e2c8ceabfe16cb8bac2396f59d64dd6f8af",
+    "output": "output/collection-grunge/styled/abduction-protocol-ivory.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "db785521e1c444965fe3c8696977a71bc4d42894252f3077c599a5f2b922ae1a",
+    "output": "output/collection-grunge/styled/abduction-protocol-grey.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "e9b51bd990714a8e9915408e0c53a53bba8f2e3530772ba2e39e6fb08fbcc3a5",
+    "output": "output/collection-grunge/styled/abduction-protocol-violet.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "80645474e10bd26dee61528527e335bb9a75c9578e907f35c6d34966d038ab31",
+    "output": "output/collection-grunge/styled/abduction-protocol-granite.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "7c50028c47ca7587b1c2af1dc371edccd173ce80edb6b735fc8205ebed1ddbf8",
+    "output": "output/collection-grunge/styled/abduction-protocol-khaki.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "17da06811cbf78b31b8638343bb5d1596c108886d4cb8a89a45d537d842abe53",
+    "output": "output/collection-grunge/styled/abduction-protocol-washed-denim.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "80e34db2946272179fc296f1eb4e8556550e510e3d422baa924265a548e44fed",
+    "output": "output/collection-grunge/styled/abduction-protocol-bay.png"
+  },
+  {
+    "id": "abduction-protocol",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "22d740b4948a312f97d0a5a9b3467752d5d62fd658b7ab0eabfcf3ba9d19b89f",
+    "output": "output/collection-grunge/styled/abduction-protocol-lagoon-blue.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "ecf0690f8059c0473aa62330059feb962fc09ccc7766c865e2cedd63db74514f",
+    "output": "output/collection-grunge/styled/timeline-breach-black.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "cc380ba3c4b422eb082f9dafeebdedc5a4c0026cd6bd9113ad5807b39ee141dd",
+    "output": "output/collection-grunge/styled/timeline-breach-true-navy.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "43e7bc8c6ea84af5d15c6c6cecb5d7fe49ee273ce933441faaa0f1058fd0cbc5",
+    "output": "output/collection-grunge/styled/timeline-breach-red.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "ac64de2e6308998f8c66c9a4199db0024e958d27f860a8cae385091fd5f83134",
+    "output": "output/collection-grunge/styled/timeline-breach-graphite.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "d2498bedde9f5b3796979a93840c0f78ae31c8eddae7f231d61e0116fb30cc54",
+    "output": "output/collection-grunge/styled/timeline-breach-sage.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "d60724789780fad0edfcb5134b8cd3b721d8c2d2cf438bbe8bc2e0e053503c09",
+    "output": "output/collection-grunge/styled/timeline-breach-midnight.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "f07d104cf957502ba922be1cdcc67294839815f8cdbf59a52b81b465b45b8f01",
+    "output": "output/collection-grunge/styled/timeline-breach-hemp.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "4556b67d8ca4d27c4e85bbf025fa5e01c7a4c3bb7cfadf0fc63a9ada68b9bbc9",
+    "output": "output/collection-grunge/styled/timeline-breach-pepper.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "7642edea07fef9a9653571424abc9ce9c12a5e8056ab7dcff874d4add886ca86",
+    "output": "output/collection-grunge/styled/timeline-breach-brick.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "f5bf35ee4ac51b7e091e66bad3667ec45417b784ef986058d9af99806f33c277",
+    "output": "output/collection-grunge/styled/timeline-breach-denim.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "6834a4acbfcd2af7c5b402cfed1e665ba723918b65c8d3f541481a10e6ecb4e9",
+    "output": "output/collection-grunge/styled/timeline-breach-ivory.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "6e117958cbe62a69d986dcb8d0c8a29169943655988107397ff77019478612ee",
+    "output": "output/collection-grunge/styled/timeline-breach-grey.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "edae0cf9d814b0718c90966ec32ed519f4f7c71185b08fe90c05dff16231c867",
+    "output": "output/collection-grunge/styled/timeline-breach-violet.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "dbf369cbe2d6006b392c0fced57ab465df4a20de8cdfa3ec07f988264d098188",
+    "output": "output/collection-grunge/styled/timeline-breach-granite.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "92534af392c81764784dc780831c30b5dabc4066775b9593c7388da9413d53f8",
+    "output": "output/collection-grunge/styled/timeline-breach-khaki.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "b9ed6f2765ac68091312fb8bb9d80cb1e79ef53e4dfd591d89430f4ceed32f2b",
+    "output": "output/collection-grunge/styled/timeline-breach-washed-denim.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "7f447381b066da4886d3a7b58f7c6bec272de416c4ea4aee7c4c8f188666b7c6",
+    "output": "output/collection-grunge/styled/timeline-breach-bay.png"
+  },
+  {
+    "id": "timeline-breach",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "5ef41e3b683e579fd16a4882c9dd09abefbbee663b3c0510d77e762f557eae32",
+    "output": "output/collection-grunge/styled/timeline-breach-lagoon-blue.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "a1d330be484c2ada3e074e1e391bfc2000b5b93b711c6201685bc75772ffa953",
+    "output": "output/collection-grunge/styled/watch-list-black.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "5218a6e3448bbaceb00e005c95179dde98bc25820ff4a7e685ca8d3f55611c02",
+    "output": "output/collection-grunge/styled/watch-list-true-navy.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "533c38dfbac9a8fa1eb9a7717bf94e53e7bbcdfa9ab11c7fb463da06099460d3",
+    "output": "output/collection-grunge/styled/watch-list-red.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "6d31bd90362670c4be70a700a019f32265eddec875951bc2fcef29fd7f5c9c14",
+    "output": "output/collection-grunge/styled/watch-list-graphite.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "76e225a8474eacda02acf9577d4a14bc1599cc807a617a7a3e622a9ba40be88f",
+    "output": "output/collection-grunge/styled/watch-list-sage.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "1501bad55940cb44f9b9937c685e6fbdad86aa4451ab5711ecdc5a98b92a4ea7",
+    "output": "output/collection-grunge/styled/watch-list-midnight.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "868b1f9fe4d43133eeef7f112df7b13acd5864aeb8d3eeb971b0f2771b537cd4",
+    "output": "output/collection-grunge/styled/watch-list-hemp.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "1a56d31bb7561157c8cf3d98d917ce804e09b32e6e303ff46f2325507c4839da",
+    "output": "output/collection-grunge/styled/watch-list-pepper.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "23cddacca952ddc19ba61228a806aa8f30ea33c6bc2b1837fdbfd5203b3a7c8d",
+    "output": "output/collection-grunge/styled/watch-list-brick.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "61c9e7030993f56b7e0ee911bccfd4ad6888bbad8d6ef47c4ef3859db27ff3a8",
+    "output": "output/collection-grunge/styled/watch-list-denim.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "3d76b31d88510a8c24fecc7c45dcb8744a51271dea05107ba598fc08dcad9e4f",
+    "output": "output/collection-grunge/styled/watch-list-ivory.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "5275751127e2a93c6f22fe411e5e3ec5636abc47f7fefd7adbc0abf8cc789d0a",
+    "output": "output/collection-grunge/styled/watch-list-grey.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "d4859c63b71bbb009e8f435ada56d88e15e7bdca5351e4cd1ff8fadef1982ee7",
+    "output": "output/collection-grunge/styled/watch-list-violet.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "18f58e06e71ba2caac8a7c0a5253faa05af6c5ccd37a6c9a43e700707b3735f4",
+    "output": "output/collection-grunge/styled/watch-list-granite.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "31a5cd6f9b44dfed4cc34cc5efd5ae4e6147cf0825eb9e07ad0ee1e8a047cb09",
+    "output": "output/collection-grunge/styled/watch-list-khaki.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "8234e553af176b0e452bdb9bbc85a23d770de4cf2295520e7b45d4eab37d9878",
+    "output": "output/collection-grunge/styled/watch-list-washed-denim.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "bd19860094218517ba68f3d2cfff42c99aa6d842143c93cf420e803be72bfffa",
+    "output": "output/collection-grunge/styled/watch-list-bay.png"
+  },
+  {
+    "id": "watch-list",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "b35600db428a09d9a3ea0cde4094c27e2639e1bdfcfe73e0cc53494e0f777da5",
+    "output": "output/collection-grunge/styled/watch-list-lagoon-blue.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "6769d077f15e015819e53cea5c74a74d4a069b2a07fdaf1a32855d827d62597a",
+    "output": "output/collection-grunge/styled/green-ratio-black.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "9d9d6c8373c84bf3b737a00cd11fa2b459b651f5e4c3a262e8c7796f8d1c8379",
+    "output": "output/collection-grunge/styled/green-ratio-true-navy.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "5dc19e640ce916f80abaf05795ddc35415c4831c7f508e5672aa3424113ab2d0",
+    "output": "output/collection-grunge/styled/green-ratio-red.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "410fc868535a8a8f9b00673b7dd2a4b82256a3abd0c6c5ed6ee06786009b6440",
+    "output": "output/collection-grunge/styled/green-ratio-graphite.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "20cb8333292b9b5bd344bd5f64dd0bb43ad017da6df0d81304b6dc53e60cb754",
+    "output": "output/collection-grunge/styled/green-ratio-sage.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "6b8d82c07a31cbbcdf28054a55209d534c6f5e61b1d7893d8b92a2cca55c04f6",
+    "output": "output/collection-grunge/styled/green-ratio-midnight.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "69269008b07b0ff92df0be87e1d696c45886a5eefacb05442aa5f5982d4e5742",
+    "output": "output/collection-grunge/styled/green-ratio-hemp.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "b66c9866426611d90747d72779a4bb65944dbedfa9a21459664da22701453f28",
+    "output": "output/collection-grunge/styled/green-ratio-pepper.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "5fb764baa269c1ab4aa89cbd7184b74060dce12c858e16d96b187e56dfa44eb2",
+    "output": "output/collection-grunge/styled/green-ratio-brick.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "d899ce855c818597037ae04e5c12ce8b2ff40c91a19cde51a0ba05e557a47c85",
+    "output": "output/collection-grunge/styled/green-ratio-denim.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "43748927ef783d990ab1946d1a77f3fa9f60f31f9ca1949577bd7a6284f70296",
+    "output": "output/collection-grunge/styled/green-ratio-ivory.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "d6ef85dd45cee4f7a8394f2c363c356e417650598598482d32aa82e89f50a9e1",
+    "output": "output/collection-grunge/styled/green-ratio-grey.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "69ad3ac0d322cddc81f13e513a9b2f1f3f3b987f347746060f999fe865908d0c",
+    "output": "output/collection-grunge/styled/green-ratio-violet.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "103a9104b655f5c45835a93c825287052332066a95b44dc4d9480bb0d9f3b16d",
+    "output": "output/collection-grunge/styled/green-ratio-granite.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "d6152380a1a11c64f23d4053e9c0c604a632252b93f9a2f516031fef530e1ad7",
+    "output": "output/collection-grunge/styled/green-ratio-khaki.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "5cf67228ca951783be691c85acb3f195844deeaf93dd11e5c1ae73d297cfbb6d",
+    "output": "output/collection-grunge/styled/green-ratio-washed-denim.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "0ecd256b3a21ff475277f8d57ddb761f5ecac8d756717b6d5b89be024725cc2d",
+    "output": "output/collection-grunge/styled/green-ratio-bay.png"
+  },
+  {
+    "id": "green-ratio",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "81638267542a40daec0a42c4307927cd3a37ece2e4a661fff8cbdc7eee96e65c",
+    "output": "output/collection-grunge/styled/green-ratio-lagoon-blue.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "5857a5b7770c469a73878179980a5e1ae79f49e7371767e18a6eff2ad1425f95",
+    "output": "output/collection-grunge/styled/tartaria-black.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "475d4b6a25c66888177785ecb0cb418485230141bf6a0ac7d120066d073a625f",
+    "output": "output/collection-grunge/styled/tartaria-true-navy.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "2361139b89fa5eb0fe82a68ed445852af3cd1a04cb306ac9174874174641f2f3",
+    "output": "output/collection-grunge/styled/tartaria-red.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "d8ad94ba9cc56eeb2a302dc4848b288a624f34bd4391446e8e8d2c213f779a23",
+    "output": "output/collection-grunge/styled/tartaria-graphite.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "4bcd3f39cf3726eb50690ad0980dc2a063b5336ee3aad93ae954205022d49bbf",
+    "output": "output/collection-grunge/styled/tartaria-sage.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "9526067dfa96c68303214e5f163f0d38bc1a41244bb97548bcb3827d6ec79848",
+    "output": "output/collection-grunge/styled/tartaria-midnight.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "bf26269a864a3fe8dab9fefa9385a6ec24a6a7e69c1d2934682c9b719bd93dfd",
+    "output": "output/collection-grunge/styled/tartaria-hemp.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "5475301125bc4d34a5f4cf60f40ae8b96e089ebda57944065abf189d10566186",
+    "output": "output/collection-grunge/styled/tartaria-pepper.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "9b451d6b006535ce42115d5f0db6f789e6e73354dc20bce401005320a7a72090",
+    "output": "output/collection-grunge/styled/tartaria-brick.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "761063017e10309fc732cc971c8850a479e071d844e81e34408ae11a920900f7",
+    "output": "output/collection-grunge/styled/tartaria-denim.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "5270e7ede9459c9888d438c288941b8494ddeed93886ae6943dc26f29d9aeba3",
+    "output": "output/collection-grunge/styled/tartaria-ivory.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "de5102e204047c6d88df564fcd6c9720effa157f05e043b2287404d4a7af5cce",
+    "output": "output/collection-grunge/styled/tartaria-grey.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "81f626c7614e30034de40dfd24a73ef81fda205132c5814d3c83e2cc2171e954",
+    "output": "output/collection-grunge/styled/tartaria-violet.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "a3016de613db7f13618d66afbda3e0c8b681b4e3e9b8769b19e9340e3f9c55b3",
+    "output": "output/collection-grunge/styled/tartaria-granite.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "333efd1424e0290739c767a825db7c576dd6b394fd2a84a6c8a1082d0ba8fd7f",
+    "output": "output/collection-grunge/styled/tartaria-khaki.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "0916e35dda727f3fd66ba7117dd8160749570b19a888f4281e05403a6dbe4b9c",
+    "output": "output/collection-grunge/styled/tartaria-washed-denim.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "3f91213a789767ade6cde22d9f9f3b074cb2def1d6aac0696535a2198b41b4d2",
+    "output": "output/collection-grunge/styled/tartaria-bay.png"
+  },
+  {
+    "id": "tartaria",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "49118b8cb9abca2116b7d7dd56abba5b9da76814793c2db144bd45bbcbcc5be6",
+    "output": "output/collection-grunge/styled/tartaria-lagoon-blue.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "f4f4b45d8ab4924f97f78d28beb859f113bff7cd14028af359054b0bbe5508cb",
+    "output": "output/collection-grunge/styled/weather-design-black.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "bea84b2f0bd7d8e3bdd589d42e8356f7524a310b7e1a6dd37f602ce3777f2811",
+    "output": "output/collection-grunge/styled/weather-design-true-navy.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "569db8dc0df0627f83cd20e230542291d50e41be45e2c28aaf2dca21604811cf",
+    "output": "output/collection-grunge/styled/weather-design-red.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "d86824585a358d4b6bbb17c42dff93a4b6e4ff08b0ad87ec5e48f7ff2d55e51b",
+    "output": "output/collection-grunge/styled/weather-design-graphite.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "57064196cb7adaaa663fbb9a137a3dbd46e5b50c49208db7d455b2ae5caf2c27",
+    "output": "output/collection-grunge/styled/weather-design-sage.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "154693f426e0b445f547cad3e2d02d9bd387083e85eb3df72553e55d1158a009",
+    "output": "output/collection-grunge/styled/weather-design-midnight.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "942ba07df8ac2c23bde0e4e770c4a2a28154269b861e8a8ea5ff8b05826c438b",
+    "output": "output/collection-grunge/styled/weather-design-hemp.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "b6ad126ab89f9cffe26fc5cb865026535508486986018d704f942b8213a1a87c",
+    "output": "output/collection-grunge/styled/weather-design-pepper.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "b759550681700a0646c32079daf07a4770e0596b19fc019aa192d7a09db1659d",
+    "output": "output/collection-grunge/styled/weather-design-brick.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "8031786f1759eb0534f868387c5b3809731447b7e9b0bfe71784888bc96e0f23",
+    "output": "output/collection-grunge/styled/weather-design-denim.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "2e42971c683c4ce0a010d54aea7db6c4782096513d4af4b1e68d1b707096fd4c",
+    "output": "output/collection-grunge/styled/weather-design-ivory.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "3a7cd102d8297bf80e1b43546bbbd6c9d0156d0310a916dbb267802d320336db",
+    "output": "output/collection-grunge/styled/weather-design-grey.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "82160fb32db97b05ce8d3b96ade6fd2a943e3908db396c6db2367fc57c94bdf8",
+    "output": "output/collection-grunge/styled/weather-design-violet.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "f74d50676ca60e7b220c7a11627a110545cdc21465eb6bc532ede4df57274e9f",
+    "output": "output/collection-grunge/styled/weather-design-granite.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "249895e63fcf88c0414644ae54a378dbe3053a1132ca6278e2d174d4cfdcc66a",
+    "output": "output/collection-grunge/styled/weather-design-khaki.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "3c93d7872da0591bb7fefd82944dc09c60a61b3e2f5d82831f3309241ede1b63",
+    "output": "output/collection-grunge/styled/weather-design-washed-denim.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "64eedb03e20f86e3b676df26ffaa1c7f6f422e2f41a1d81f055539f8b0008fe6",
+    "output": "output/collection-grunge/styled/weather-design-bay.png"
+  },
+  {
+    "id": "weather-design",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "d49797e16eaa91b707f392882aedc542daf96ff3e4ebf7c0006e36956aa4751c",
+    "output": "output/collection-grunge/styled/weather-design-lagoon-blue.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "c7b85235608a4bb38efbcc640eda66f979df19367903d641774979e819cfa788",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-black.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "d86359f2508c4aed108dcf09edc0d7857503d24ff25d38add3310dcfff9e5fb4",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-true-navy.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "2354e0a8ab7e7d74e2e45e766a6f5a0ed2b512a74b58879c7a152835f1d565a6",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-red.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "9d01898a70cd19cf1db805086bf37c99c6a670aec7e321655e943826cbbc98c9",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-graphite.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "5b61762a19e2849c3cf7efeb064b898c6278944404999e0990aadaf843c560bb",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-sage.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "a26650f0ef3fe405a6877242e719e3c7afe92bf7d344072f8730b597a4db10be",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-midnight.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "01075374f8f478b604b246362e64db5fd3d47035f8b056dce05c26bddaaa997b",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-hemp.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "7c79e29531e7a20c7387d44c8b68a0eebaf19b4a1013e7155db755845b0a37cf",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-pepper.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "6921e2deec2272cf165b92953ab10091a8c2aec2b8dc9742f03ebe28843b6008",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-brick.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "77d3f40105be4c11701eb89eb24a4d46c29f72dffb46792f538cde2cef925417",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-denim.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "50c513769a06019bf20bd66a92e40eb2d74e8350cb7ddff3d89e4a8fffc2bd03",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-ivory.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "186361ab82ba111eba448a15be8d61abc1b1375f4465a742cb8b0ba6368b259c",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-grey.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "f71fd8f72bbb16fc3635786c6cd0811c9d7068da1df655b14f49f4e2e0fa99c3",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-violet.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "9696d7bc0f26cf34d46cb4da946f68768e24ac54499b21a545ba7c55a5c3e3ea",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-granite.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "7b5199b4b9b5e4ea3af7dbb6785898985ec6eb15b5a4878487fbb730e6bc8df5",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-khaki.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "120657d5f38107ded005b440394d20ac65b690ffd0129b18f29b56e42f6859c3",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-washed-denim.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "064a6633659f5fd443fddfce196dbb6889a64c570d7f9e1eb09a30ce52c3c844",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-bay.png"
+  },
+  {
+    "id": "cold-blooded-elite",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "50194ec9097a990ffc3e627b54a0d7bd963cfead93e84397dbafaf6a9ecf8e7c",
+    "output": "output/collection-grunge/styled/cold-blooded-elite-lagoon-blue.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "9420d568f61da35cb9dfae335f85d1f31208c62eb287c388466501c220f10ecf",
+    "output": "output/collection-grunge/styled/reptilian-royalty-black.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "6662b896467c36cf511aad9deaf3e506ab6f14efc654a637d5b5f2726f97c6db",
+    "output": "output/collection-grunge/styled/reptilian-royalty-true-navy.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "5df65a70799f388eae57569f18ce0f7471cf3aa585e6e299282c72bb8f37d7b4",
+    "output": "output/collection-grunge/styled/reptilian-royalty-red.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "8fcdc3f1e15d3cbcf84b1608d179545c986543bfd28a5340191d1f0315edb978",
+    "output": "output/collection-grunge/styled/reptilian-royalty-graphite.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "6d81f8ace419100e0c2b51b895e4ef0867278dcb78bd20ec676949b720afe18a",
+    "output": "output/collection-grunge/styled/reptilian-royalty-sage.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "1e329ed64a828cab544c6cf483a44d0705dd2079451aa58436af70ad7e98b755",
+    "output": "output/collection-grunge/styled/reptilian-royalty-midnight.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "c77b3a51931825e9c6ed84bb3492c26a27f6f1ccd35f2abefc20f732c8743092",
+    "output": "output/collection-grunge/styled/reptilian-royalty-hemp.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "9d6f510d102af0b78b4799fecf603ae0cd4addef0a64d742cc422a53ae27288e",
+    "output": "output/collection-grunge/styled/reptilian-royalty-pepper.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "18f36c77b46dc4d369e3d09c9f8bec0b4a23e6c130f9ff23a676c0054827aa64",
+    "output": "output/collection-grunge/styled/reptilian-royalty-brick.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "48228c54dfd389286fb03fff73f2298192b8e724bd6ebabb6565942f9970eac5",
+    "output": "output/collection-grunge/styled/reptilian-royalty-denim.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "37f2567e3d764479787e766190a37301c95c83e4fae69eaafda2208cce555129",
+    "output": "output/collection-grunge/styled/reptilian-royalty-ivory.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "2fb6023376976731b136ffb19ed1446fa52242ce80045bb43a8afdcb86813b4b",
+    "output": "output/collection-grunge/styled/reptilian-royalty-grey.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "1df75d0ed082a067213b17360b212b4af82352324be8e6b0e4ba54f358cf9088",
+    "output": "output/collection-grunge/styled/reptilian-royalty-violet.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "61227b2aa998e1d90122b290c0413d18f7d45ea8fab394ad2a1911bf8d6c68a8",
+    "output": "output/collection-grunge/styled/reptilian-royalty-granite.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "c6984162ec35d756c0232c603f4a7f74ebdb03a789c01f59d89af6b2a44f04ee",
+    "output": "output/collection-grunge/styled/reptilian-royalty-khaki.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "9343b2179ce0e1e62957bd3ed9f4bffb536bf8391366770fc0f24bef93440448",
+    "output": "output/collection-grunge/styled/reptilian-royalty-washed-denim.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "31ff5e4c2071b4f9469763e73dc718b575c81d3df0e50b0272d64d7d68b06d96",
+    "output": "output/collection-grunge/styled/reptilian-royalty-bay.png"
+  },
+  {
+    "id": "reptilian-royalty",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "b8579c99bd3adde0e11fbb63f2ff6d32a5e0b8c3eaf1920919cc31c61f9d5593",
+    "output": "output/collection-grunge/styled/reptilian-royalty-lagoon-blue.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "c259d6f6185a746f87d74e3af6ac0b0a12dc87c04ae8ffa4a88ae45a19cc55ca",
+    "output": "output/collection-grunge/styled/epstein-black.png"
+  },
+  {
+    "id": "epstein",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "19b05db66bccaf9f2cfe7736a004ac0cdf1ebfc2be8fcdd44353f7969d317e77",
+    "output": "output/collection-grunge/styled/epstein-true-navy.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "6c426325bfc679b50c2b9de88bfc037b473d1aef93ef45379a737a5a3ee60ac0",
+    "output": "output/collection-grunge/styled/epstein-red.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "64da0d819ecdb7b57245a69885b113b99943d7b7ef9e4922ef653b054061f703",
+    "output": "output/collection-grunge/styled/epstein-graphite.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "3449e196174167ae4cd9f2aa705394dfc1e3ea31be3b451741e8289f714f9226",
+    "output": "output/collection-grunge/styled/epstein-sage.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "10c450b0a05c0f8e54c3d2ba14b037389ec86fb46def1a993b92b460ffcf3d53",
+    "output": "output/collection-grunge/styled/epstein-midnight.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "b4bcd1ad33b6ad14be7b0d1fc0f1a3074581a8f3c3ac5e454e00fd32a56a90fb",
+    "output": "output/collection-grunge/styled/epstein-hemp.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "96aae1e8728474ae4f608021ba29c49331452456843c07ac6a76b946540f0f9e",
+    "output": "output/collection-grunge/styled/epstein-pepper.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "d99c9833e9fb398b288bfef8f9e7c1aaca2049d0c19a7743b992cc8d9bbd99ca",
+    "output": "output/collection-grunge/styled/epstein-brick.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "654ee3aee6e621c9faa2fe3e10818c51ce74f51416af2597b95141836018889a",
+    "output": "output/collection-grunge/styled/epstein-denim.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "c11622b2212091ecba35deccc78165825150621d9984d2b7731aeac1aa3560fa",
+    "output": "output/collection-grunge/styled/epstein-ivory.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "2dc0c8f5a1f365d3acf4420e0465e99c1775034decc0e1271914d8da11fd80df",
+    "output": "output/collection-grunge/styled/epstein-grey.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "f2cdad09b1f5d8e517c48ab6b558e984a2dcb27386cbbb94ca8d16d33494ef68",
+    "output": "output/collection-grunge/styled/epstein-violet.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "6211bf67dddf6deb49a676188990691e899226d062dae8319914dfe3f6b709e8",
+    "output": "output/collection-grunge/styled/epstein-granite.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "b98b91bda7a001fb1109d9bf88b8644158119b3850043461a4ea51a186ed6292",
+    "output": "output/collection-grunge/styled/epstein-khaki.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "7c45c44abbf38e25fe348c72cab645defe82306c2d70ecd21d0438760653c7b3",
+    "output": "output/collection-grunge/styled/epstein-washed-denim.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "d19675fe3199b9517a41f818cd9e110f31e8d56a6d80b35fa010916b6ed016be",
+    "output": "output/collection-grunge/styled/epstein-bay.png"
+  },
+  {
+    "id": "epstein",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "ef4f82332a917cdc31b194977757839c41b986583edc524c5c62fff32c0d7756",
+    "output": "output/collection-grunge/styled/epstein-lagoon-blue.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "832e8f1b7b0088eba5902b0bebf785c537f817a0aa6708a3ab58b683deaaced5",
+    "output": "output/collection-grunge/styled/avicci-black.png"
+  },
+  {
+    "id": "avicci",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "f19b6f3d49205a593ec088ba3baa4080c8d459af6d8cfc71c06c2a492639211a",
+    "output": "output/collection-grunge/styled/avicci-true-navy.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "145842307a78a15f8a3ff6627e0c0b36038d3c704e96a14c522de272c45d971f",
+    "output": "output/collection-grunge/styled/avicci-red.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "48131b0f9bd06fadcfd261d5a672ad3dc9fb282ae4c981a6443ce9cb18bdc944",
+    "output": "output/collection-grunge/styled/avicci-graphite.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "354f1342fdc1093bc793017f519295f43fe34078b8bbbd0ad2fc07df5990c515",
+    "output": "output/collection-grunge/styled/avicci-sage.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "02164f8aba462a8d58586bc7d1497b510d844515b204331ee00edb41f026c0c2",
+    "output": "output/collection-grunge/styled/avicci-midnight.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "d619aa7f1775aecb9727c0605c2833b27e91b0a28bb25738d358956b323525c8",
+    "output": "output/collection-grunge/styled/avicci-hemp.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "7d6010125c9f5ec3f155b3320970630b973093b7a03809180d66def70ea40f49",
+    "output": "output/collection-grunge/styled/avicci-pepper.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "beb311b2d266f26c8a715b5025f1e09c6d6172e0591a3f83ea932be05bf45cad",
+    "output": "output/collection-grunge/styled/avicci-brick.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "b12366e368582b21f0f18b0d21c0fb70debfe86fc0c8ede475d7c3744b7b47f0",
+    "output": "output/collection-grunge/styled/avicci-denim.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "22408c3a7ba23d523514db5b39f5cf3e07cb3f3d80158fb47cc45e993ea4a0c9",
+    "output": "output/collection-grunge/styled/avicci-ivory.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "309515534f33d89c7c63aacc2e5dc4cf56ee0dc82cac4ac5c986fe096dac1750",
+    "output": "output/collection-grunge/styled/avicci-grey.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "5f08971a566a0f978242e674ebb4b6dde25ed1cd7e791eca28b8f5a90e780061",
+    "output": "output/collection-grunge/styled/avicci-violet.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "cdd481e0c68b60775857af0d76aa7ec94cfa3f6c58a9d59c4661bbd5dcfcf244",
+    "output": "output/collection-grunge/styled/avicci-granite.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "2657cff37c6068e3e4b0c025d859faa4ca95c574684e4a55542bae2d2c3afb6b",
+    "output": "output/collection-grunge/styled/avicci-khaki.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "efb0e81b4b30bee19f12e8d6d2164d2be9788f57d66d27906723b16940446b62",
+    "output": "output/collection-grunge/styled/avicci-washed-denim.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "78cb46159df8214ecc3fdedd8de8bad7021d5323f9df26b1226e7f0b78f98612",
+    "output": "output/collection-grunge/styled/avicci-bay.png"
+  },
+  {
+    "id": "avicci",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "c178b93767fc0489f4087c49a539a22c706d404bf650756497dd47597f0fef82",
+    "output": "output/collection-grunge/styled/avicci-lagoon-blue.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "700b2fe5e804eec07e8cd656039dfef06c075a45add906d5cecf1eb3f32fdfb5",
+    "output": "output/collection-grunge/styled/bourdain-black.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "671a3860699311aac0f82ae1bacfc24049a9ba8fbe6274539fb319a2a98146fe",
+    "output": "output/collection-grunge/styled/bourdain-true-navy.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "e778f40e921a7339a513720f1f6f548a15078d8f63075d6fe28d66a253b06f00",
+    "output": "output/collection-grunge/styled/bourdain-red.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "9ef2872ac419aa873d583a4bf49b11b1c73e7c5c53510b6b1c64fa2aae5f7647",
+    "output": "output/collection-grunge/styled/bourdain-graphite.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "b107da1873976ef7c334b02e6bf628dc40d60ac2a47e80cd894c883bc817570f",
+    "output": "output/collection-grunge/styled/bourdain-sage.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "66a1680320bf1c7ac290da49a87863faaf97d7f788935448b0267030e41f9ea9",
+    "output": "output/collection-grunge/styled/bourdain-midnight.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "dae36daf76d5add82a40b53f8819eba85a1493ef8d31198e62a7192a5d553bd2",
+    "output": "output/collection-grunge/styled/bourdain-hemp.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "094bce811759c27cb85caf99eedaae48b4397f479ef842ce374d876b109f0967",
+    "output": "output/collection-grunge/styled/bourdain-pepper.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "b91f1f49b68d796375d67fd4e3790d59f7f5adc1cd3877dcdbd0caefed9e25f3",
+    "output": "output/collection-grunge/styled/bourdain-brick.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "0b464c39a7728896891e6c63732f807b2534a5631d7cf50bcb06beae7010e7d0",
+    "output": "output/collection-grunge/styled/bourdain-denim.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "8846f10ad9290c19b250f77cf739704740c1a5eb546cd389bc54d21431bd8c3d",
+    "output": "output/collection-grunge/styled/bourdain-ivory.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "d20f2d2177da21e63bdd43e1a3fdad6f6581d43d8482bd0057d73669710b7094",
+    "output": "output/collection-grunge/styled/bourdain-grey.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "f4d6371b4ec4e23632ff5d01a874da2845ce0abfda10be09893956732f8f102b",
+    "output": "output/collection-grunge/styled/bourdain-violet.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "5b2b59664983954c4bb791ca11efdc380679f3b1f9d94c5a4b4c5e9be9952ec5",
+    "output": "output/collection-grunge/styled/bourdain-granite.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "8618a9e8b1c4444c16a2b5d24e86c17406be5de928e716ea59d8838aba996b40",
+    "output": "output/collection-grunge/styled/bourdain-khaki.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "afa499587cea904666bdf2094af4c44fa2650be7964a4510fcaa1b58ee91f7a7",
+    "output": "output/collection-grunge/styled/bourdain-washed-denim.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "a1c0cba2190f44b89f5f41ac357ba62258d782ce13ab5d371c3918ca18ba48bb",
+    "output": "output/collection-grunge/styled/bourdain-bay.png"
+  },
+  {
+    "id": "bourdain",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "023aca25d7e0ea8cca933f1bf29165d1e79feabb58097d43798aacbd84de9061",
+    "output": "output/collection-grunge/styled/bourdain-lagoon-blue.png"
+  },
+  {
+    "id": "chester",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "0d6bfc8841327a0444bee39709f0800ddf603851b1ef4f50f6127bdca6ac7c3e",
+    "output": "output/collection-grunge/styled/chester-black.png"
+  },
+  {
+    "id": "chester",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "beed6f83f0e9b73aa0eba98c5554ec2d3df0ecdd09bf13f7ed1056044f7dc6e0",
+    "output": "output/collection-grunge/styled/chester-true-navy.png"
+  },
+  {
+    "id": "chester",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "1fa20d1db0614f018941e60a5b4610693b339d050ed1fd6fc7a7e49cb85950e8",
+    "output": "output/collection-grunge/styled/chester-red.png"
+  },
+  {
+    "id": "chester",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "64555fffdf0b8cc8f7b5e5305caca8779ddec4305551d81dcf3a6f09d85a5879",
+    "output": "output/collection-grunge/styled/chester-graphite.png"
+  },
+  {
+    "id": "chester",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "f8ad47c992e4f9a01f2a312dae9aab75fc393f51c32e3d980310ae7203676df2",
+    "output": "output/collection-grunge/styled/chester-sage.png"
+  },
+  {
+    "id": "chester",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "9fde92c360258e425b4960c650edbcdd8d75674f9822730c0c57063b2d2f8e8d",
+    "output": "output/collection-grunge/styled/chester-midnight.png"
+  },
+  {
+    "id": "chester",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "499e23ad48761e6ada1f4f25044a3a966bea331022d8968c8f8d49677505837e",
+    "output": "output/collection-grunge/styled/chester-hemp.png"
+  },
+  {
+    "id": "chester",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "7b8e2f990ac306abffa61e1f14e91d0b395cadbc256ac00a442ff2af990d59d4",
+    "output": "output/collection-grunge/styled/chester-pepper.png"
+  },
+  {
+    "id": "chester",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "af4af871e578a22cb9965dc13b585e5adabe2f70b5e8eec1b72984fc84bcac71",
+    "output": "output/collection-grunge/styled/chester-brick.png"
+  },
+  {
+    "id": "chester",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "f866c0d2c6c08ab063ec1551d23cd1a4cb7b7d21ea59845f092766c7e2a96f41",
+    "output": "output/collection-grunge/styled/chester-denim.png"
+  },
+  {
+    "id": "chester",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "d61aa76c722ca74c415e39992f71217c263c30d525b74905b3f130f6aead995b",
+    "output": "output/collection-grunge/styled/chester-ivory.png"
+  },
+  {
+    "id": "chester",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "35b19d2e0e8c7c103b41d6732781a128bf2082dea8e9dcc3fe1a9c0fb86e6b09",
+    "output": "output/collection-grunge/styled/chester-grey.png"
+  },
+  {
+    "id": "chester",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "53550708d18b9cbf0f5d82cd42b0d0bd375a79b95e9ad532cfb4d852e0d586dd",
+    "output": "output/collection-grunge/styled/chester-violet.png"
+  },
+  {
+    "id": "chester",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "06e7129448e617602cd120786a9b28317dfc4a604f40c1d023aaa4aea3fd6091",
+    "output": "output/collection-grunge/styled/chester-granite.png"
+  },
+  {
+    "id": "chester",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "98a4bea241c813d95874b04345006ef34e1fb3a6301a13980312c5b331272c36",
+    "output": "output/collection-grunge/styled/chester-khaki.png"
+  },
+  {
+    "id": "chester",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "6009f1163a3682f0546f6f1a79282be096ee3474f6dbcd9630b51e41f4fa31f4",
+    "output": "output/collection-grunge/styled/chester-washed-denim.png"
+  },
+  {
+    "id": "chester",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "37fa04f9bbbd542ea8a0966068b46acdb4a42da6392798a486cc9ec3d213dc8b",
+    "output": "output/collection-grunge/styled/chester-bay.png"
+  },
+  {
+    "id": "chester",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "01d0ccfbe67f05a5c3d94b261b939f3b6677a23da0def4a0c6122a634d5a94ee",
+    "output": "output/collection-grunge/styled/chester-lagoon-blue.png"
+  },
+  {
+    "id": "corey",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "237f9687661dc007b4cbd48dc3b2ee01b823132e3f310b360edc68e4835163e1",
+    "output": "output/collection-grunge/styled/corey-black.png"
+  },
+  {
+    "id": "corey",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "8aa2aecde0e452bf75065cfeebc07a42653a677434f793c2a2cdd58f8a321ee2",
+    "output": "output/collection-grunge/styled/corey-true-navy.png"
+  },
+  {
+    "id": "corey",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "d30d316dcb2f8da22185337b3cbf7c13c13bf3c54809804dedb019b1d373bd48",
+    "output": "output/collection-grunge/styled/corey-red.png"
+  },
+  {
+    "id": "corey",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "877f95e5058b300e949aefccc511cacc1b2825026e4728628e8da48f9822694d",
+    "output": "output/collection-grunge/styled/corey-graphite.png"
+  },
+  {
+    "id": "corey",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "0424050fc9899ec0ed541f867730857797eff4127507740685c7c9636bd56bf0",
+    "output": "output/collection-grunge/styled/corey-sage.png"
+  },
+  {
+    "id": "corey",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "fa78f53ad84559ed65128f5974daeea32cddf0d2cc099827903ef00fb5b5e268",
+    "output": "output/collection-grunge/styled/corey-midnight.png"
+  },
+  {
+    "id": "corey",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "ca3d93af6737c5b508c4bee241231e0ec922f44a0252884370c1e535f5494e23",
+    "output": "output/collection-grunge/styled/corey-hemp.png"
+  },
+  {
+    "id": "corey",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "33936401326042c1b903f824ba56758c2f4eaa420db8a2ac00725367e908375c",
+    "output": "output/collection-grunge/styled/corey-pepper.png"
+  },
+  {
+    "id": "corey",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "948831609e71fc1eb1307c1f95525faa2b6d1332de31b8aeac7aa1603ffb3740",
+    "output": "output/collection-grunge/styled/corey-brick.png"
+  },
+  {
+    "id": "corey",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "09a34302d4d57758abcf8d6140d74a3716b799a008d40800f5713af7c85af711",
+    "output": "output/collection-grunge/styled/corey-denim.png"
+  },
+  {
+    "id": "corey",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "18d45864aef334045f0e8f65aa889ab71078dc0909a858f7fa85049f6d39c633",
+    "output": "output/collection-grunge/styled/corey-ivory.png"
+  },
+  {
+    "id": "corey",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "5e855b6b239e629133c1039553341eb28a9a7bb28d1541f2c5c33a03016992e7",
+    "output": "output/collection-grunge/styled/corey-grey.png"
+  },
+  {
+    "id": "corey",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "641671ce3a5b8ec09462316699903262faa769c663f99bb9dc722ef662ca7e52",
+    "output": "output/collection-grunge/styled/corey-violet.png"
+  },
+  {
+    "id": "corey",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "a1e756166afe0da3cb252500c050d57c7f6157220a18092001cf6596652b29ac",
+    "output": "output/collection-grunge/styled/corey-granite.png"
+  },
+  {
+    "id": "corey",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "f040588503c8835bd3ccc274e749c0d09e78a854a3bf3e4032046a12b15b286f",
+    "output": "output/collection-grunge/styled/corey-khaki.png"
+  },
+  {
+    "id": "corey",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "a56d89d00ecbcae4bed5d319ea576729aaf2a9db21d50c5981d2bf970f03ef2f",
+    "output": "output/collection-grunge/styled/corey-washed-denim.png"
+  },
+  {
+    "id": "corey",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "5ab98d386180d8c824c83a5c1cb7dc8b73b3446a350c66f7054c5eb3011a7ed9",
+    "output": "output/collection-grunge/styled/corey-bay.png"
+  },
+  {
+    "id": "corey",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "f9efb1833cc77c57b13eec74ede08added9252e994e5a89adea3ce511379c62d",
+    "output": "output/collection-grunge/styled/corey-lagoon-blue.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "40c0e84e68055e902885ee0a97e2c5e94db15c9046fb90aebf8af6a0f6d58aea",
+    "output": "output/collection-grunge/styled/cornell-black.png"
+  },
+  {
+    "id": "cornell",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "aefc511a797d8ae0933ce6c30c2fcb658d846e7d3d6e4149e87a7d15b831c8bd",
+    "output": "output/collection-grunge/styled/cornell-true-navy.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "7f60a57cd886b67ad46641376d4131c9818d9e7ab2cfc3159dbb7c42aa825aa1",
+    "output": "output/collection-grunge/styled/cornell-red.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "6a894277d7cbf71b214f7a6481d23aa1dab5a78874c33bebe8c13f24f09ef8d1",
+    "output": "output/collection-grunge/styled/cornell-graphite.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "4c76c7dfe0e2960313578be680e06c36e3c8a1de48673450e374388926403263",
+    "output": "output/collection-grunge/styled/cornell-sage.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "1e38cf99989f7986a9abc84312b23b158991e1e7b11fc4c12505ae0c36a13c5e",
+    "output": "output/collection-grunge/styled/cornell-midnight.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "f9cf896e737dfaa42630ead25ad7a7972edda9c4306d84d7e49e8dc4f2c53e3c",
+    "output": "output/collection-grunge/styled/cornell-hemp.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "71c69922d16737897b2be31c5fba0b53786a66d809a093d52a2a22c0376dda61",
+    "output": "output/collection-grunge/styled/cornell-pepper.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "bbf3edfde963c5d3c6addddd4aafb463d3948ce8e0e6a0ca8354688788cc5e62",
+    "output": "output/collection-grunge/styled/cornell-brick.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "2baed70d791949dc01fd4d38779de69157dd32b7656386d4e949cc32d35ceb02",
+    "output": "output/collection-grunge/styled/cornell-denim.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "41864eb5e06e17c7964c65b3c54a6027aba4f64e18ca8413a05611f217069a8c",
+    "output": "output/collection-grunge/styled/cornell-ivory.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "7956e9ee0277ddf401c2355ffbbcc2771bbf5a9e50db3df38f8e5357051a22bd",
+    "output": "output/collection-grunge/styled/cornell-grey.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "d602e002b666bbfa8951886117c20204aa5b653590aa830a5f51ddf973aeec3a",
+    "output": "output/collection-grunge/styled/cornell-violet.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "75bfdaf6bdba6e41e4e3849b85de4af63cc67265e8b73044d55d24ba8f16c126",
+    "output": "output/collection-grunge/styled/cornell-granite.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "fae59838c4c4bf813139341e7597f77295e74cf38f3a0b8891ae6752f947fd9e",
+    "output": "output/collection-grunge/styled/cornell-khaki.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "5114303eb729cafe5800b3358fe073b6d378c5c6bfad929af36b086ffeb72dd4",
+    "output": "output/collection-grunge/styled/cornell-washed-denim.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "0b17841b9873cb9eedb8fa7a46fa6ffd6b6dedda867723b8639bcf20a4a67d05",
+    "output": "output/collection-grunge/styled/cornell-bay.png"
+  },
+  {
+    "id": "cornell",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "63b8da7fed011603495071bbeefa0cecc82650a11ff1eaa4a52e6263d5dfb6f2",
+    "output": "output/collection-grunge/styled/cornell-lagoon-blue.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "affd57d43fc52452389b433fb88a3a3296444cf686a9b4aaac18b3f22e807161",
+    "output": "output/collection-grunge/styled/kappy-black.png"
+  },
+  {
+    "id": "kappy",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "b8acece8907c2180d47a9383e602dba547c98f56612d24b398b69e4bf8fafdca",
+    "output": "output/collection-grunge/styled/kappy-true-navy.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "c63e21cc06a523fb5b7c4c51161ab2d94cfffbf9ea33b0a7392218aabc65d0c6",
+    "output": "output/collection-grunge/styled/kappy-red.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "5e38322dcd2091b086e7f02bf726deb166a99be287aca592bba752822bf8f3e2",
+    "output": "output/collection-grunge/styled/kappy-graphite.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "9cbb3cbd920d4ca1c6ad3faedd65a534185129cf585fb3e835e2e3ec0e14788d",
+    "output": "output/collection-grunge/styled/kappy-sage.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "dd24f1ca33d6731f35dc34b605d8d96248e83d872d90d2ab8be856c17262de1d",
+    "output": "output/collection-grunge/styled/kappy-midnight.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "c9ef3abd087e7ede00a494b30722903ae85401d22699feaed906af977b33288a",
+    "output": "output/collection-grunge/styled/kappy-hemp.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "dc5ca09522066a0809ac9f3e30fcf54bdafbb1b8c3ffbb4b0ea2d73516d7a9ff",
+    "output": "output/collection-grunge/styled/kappy-pepper.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "71526c8cd75949be5f3fe5910831f381d251ff8add04feffea1e6ccebc2ca2c5",
+    "output": "output/collection-grunge/styled/kappy-brick.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "8ab0f4a8e86922951792e354d8dc02ff711d920d2c7e2fb2f758877456b114dd",
+    "output": "output/collection-grunge/styled/kappy-denim.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "09691fa6e9ada6dfdb02b583001dda8b33f7e316e085b41f381341538943acc7",
+    "output": "output/collection-grunge/styled/kappy-ivory.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "51807eb22d8d8b3454b278a76e524abff77c4d0aa1ff1bb4ccfb5193728bd225",
+    "output": "output/collection-grunge/styled/kappy-grey.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "9011ac9ce085b34fb007fd954d25c7482fb884b516b87185aae55d6936c51346",
+    "output": "output/collection-grunge/styled/kappy-violet.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "aad3c70216a85e801fd8e6fd2e4350b00d461d911276f95325db4080e1f30764",
+    "output": "output/collection-grunge/styled/kappy-granite.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "de4488d227a0de907f72c845bba18567465d68d0566d35f3d222fa2dccb7c41a",
+    "output": "output/collection-grunge/styled/kappy-khaki.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "d051d0d7cf4cc262ce7b9e51b0dc090641ac2ffd2fd9c1246a2d8cd51af1e3c9",
+    "output": "output/collection-grunge/styled/kappy-washed-denim.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "b3198a9bae8595cb728718caad21a1ab03e0c9620b056a33a7c1c3580311284e",
+    "output": "output/collection-grunge/styled/kappy-bay.png"
+  },
+  {
+    "id": "kappy",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "b21f5a8b1b0c251d0bfa84f9b490708a82f82b308c363a58342b8ddd73b6fb8d",
+    "output": "output/collection-grunge/styled/kappy-lagoon-blue.png"
+  },
+  {
+    "id": "walker",
+    "color": "Black",
+    "preservedPixels": 331971,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296498,
+    "adjustedEdgePixels": 6685,
+    "referenceSHA256": "891cf29c24ed378e550bfc6055d6cb0b0aa2f45b364f0237502e8305c9e3f2c2",
+    "output": "output/collection-grunge/styled/walker-black.png"
+  },
+  {
+    "id": "walker",
+    "color": "True Navy",
+    "preservedPixels": 334700,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293534,
+    "adjustedEdgePixels": 9177,
+    "referenceSHA256": "80369fdf17cbe85114ee06ae6f5e98626684dfb9c58a7a912327cc6a0b31711c",
+    "output": "output/collection-grunge/styled/walker-true-navy.png"
+  },
+  {
+    "id": "walker",
+    "color": "Red",
+    "preservedPixels": 335701,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 292583,
+    "adjustedEdgePixels": 9497,
+    "referenceSHA256": "e82cc5074ae0da1ae1fe7e2c580e8c55b1d178f8f73f1ee09205e5a69f9e90bf",
+    "output": "output/collection-grunge/styled/walker-red.png"
+  },
+  {
+    "id": "walker",
+    "color": "Graphite",
+    "preservedPixels": 331957,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296550,
+    "adjustedEdgePixels": 6857,
+    "referenceSHA256": "7a48a0af491b18cb6b91901d6a8b8e800e73facb13963edf7b8e19d70d77642b",
+    "output": "output/collection-grunge/styled/walker-graphite.png"
+  },
+  {
+    "id": "walker",
+    "color": "Sage",
+    "preservedPixels": 332588,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295337,
+    "adjustedEdgePixels": 7740,
+    "referenceSHA256": "80cc8ed057f6d371d1c7e01ab589f4370576bbf2b11e389300dac1a1ac3a33d1",
+    "output": "output/collection-grunge/styled/walker-sage.png"
+  },
+  {
+    "id": "walker",
+    "color": "Midnight",
+    "preservedPixels": 333532,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294349,
+    "adjustedEdgePixels": 8291,
+    "referenceSHA256": "cde7c8e41173c59b0bdaaf02694c7487470afe6c443c235dad8e0d66b7f4a806",
+    "output": "output/collection-grunge/styled/walker-midnight.png"
+  },
+  {
+    "id": "walker",
+    "color": "Hemp",
+    "preservedPixels": 332455,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295261,
+    "adjustedEdgePixels": 7852,
+    "referenceSHA256": "f376cd40b28726b7ad07c19a828b0a62dd5647bdc4fe3ceb430bc8ef8b5e2da8",
+    "output": "output/collection-grunge/styled/walker-hemp.png"
+  },
+  {
+    "id": "walker",
+    "color": "Pepper",
+    "preservedPixels": 331793,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296767,
+    "adjustedEdgePixels": 6652,
+    "referenceSHA256": "dc758f5ee3fc4dbf52d8bd117ed64661876b0fea86e80fb2197860450a8bc813",
+    "output": "output/collection-grunge/styled/walker-pepper.png"
+  },
+  {
+    "id": "walker",
+    "color": "Brick",
+    "preservedPixels": 334159,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293662,
+    "adjustedEdgePixels": 8942,
+    "referenceSHA256": "2dd292d7b944bab6040e72f53d647ce3ec49b74fbd3fe73b6f425b33e6bc56b1",
+    "output": "output/collection-grunge/styled/walker-brick.png"
+  },
+  {
+    "id": "walker",
+    "color": "Denim",
+    "preservedPixels": 332170,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296138,
+    "adjustedEdgePixels": 7172,
+    "referenceSHA256": "18ffc7d997411752179fc8ebb5fb652d532560f571a7bf6770624fe7e9cf818f",
+    "output": "output/collection-grunge/styled/walker-denim.png"
+  },
+  {
+    "id": "walker",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "84e87a328950ddd472f27373b100288611985ad71cedecad68cf76678496523a",
+    "output": "output/collection-grunge/styled/walker-ivory.png"
+  },
+  {
+    "id": "walker",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "04f7ef70098b5a2d5ec0798a780a8166b86caa5647256a04d670846f19d9e848",
+    "output": "output/collection-grunge/styled/walker-grey.png"
+  },
+  {
+    "id": "walker",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "dd3cc34479dcd3d170550cc3a94e74008702b94f4dffe9779f63c900c406a8e6",
+    "output": "output/collection-grunge/styled/walker-violet.png"
+  },
+  {
+    "id": "walker",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "79427919841567ff2fd95aa5ed6431613171f0bd94539a07eabcc4898328d572",
+    "output": "output/collection-grunge/styled/walker-granite.png"
+  },
+  {
+    "id": "walker",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "6fb264cb8204b418c541e7fb72ecacae450625474f7328f700718713c01bdd1f",
+    "output": "output/collection-grunge/styled/walker-khaki.png"
+  },
+  {
+    "id": "walker",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "4aede599b4ca9f036715a6f62aff3dc13bc3c1d1517aa39e833362a10161ff04",
+    "output": "output/collection-grunge/styled/walker-washed-denim.png"
+  },
+  {
+    "id": "walker",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "8772af8983b7e65d800045f2796ed560c81a78f9f32c8879085c93271c246659",
+    "output": "output/collection-grunge/styled/walker-bay.png"
+  },
+  {
+    "id": "walker",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "d84bae16dcd8cfe9387bd65cd16a49ccb0f16a54a6a9e9ba9c4e3eea2cee765d",
+    "output": "output/collection-grunge/styled/walker-lagoon-blue.png"
+  },
+  {
+    "id": "machine-elves",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "7edda2ecbe1db8f98e804083c920c28ed66959ce8df0fbc318a44009807a3dc5",
+    "output": "output/collection-grunge/styled/machine-elves-ivory.png"
+  },
+  {
+    "id": "machine-elves",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "5f6b4b9fbb02ecff1cd12fc7a7e38c82a74e865b56a1ba27142eaf25564275e5",
+    "output": "output/collection-grunge/styled/machine-elves-grey.png"
+  },
+  {
+    "id": "machine-elves",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "b7a5c1af3f9b4974c998ce02ee23c597ebc60eea3d5db2903020603fa5465f01",
+    "output": "output/collection-grunge/styled/machine-elves-violet.png"
+  },
+  {
+    "id": "machine-elves",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "62a2a8ab96df33195f491cbe21b34a878ad5a655581ff9111b00bb933b5c8533",
+    "output": "output/collection-grunge/styled/machine-elves-granite.png"
+  },
+  {
+    "id": "machine-elves",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "2dbec219e516f134d904235d07e02b9731cdd3204f595f4fc25625f10a71252b",
+    "output": "output/collection-grunge/styled/machine-elves-khaki.png"
+  },
+  {
+    "id": "machine-elves",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "e6ba7d996c62aa33fbc54a5fbb734995b6041ff24cd7210c9df962fd36d776ad",
+    "output": "output/collection-grunge/styled/machine-elves-washed-denim.png"
+  },
+  {
+    "id": "machine-elves",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "bd51646f975de47858c27188a0a0f9d1f007eabab829c16dcad061f94ddc5058",
+    "output": "output/collection-grunge/styled/machine-elves-bay.png"
+  },
+  {
+    "id": "machine-elves",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "926121c47f16d19def021103de11ce0c595a52f4a66e11b6693e59340092a02b",
+    "output": "output/collection-grunge/styled/machine-elves-lagoon-blue.png"
+  },
+  {
+    "id": "root-access",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "491fde1776810e095ee73c9670e826fe359ff69525d8e3d66ec403fae90f2c1c",
+    "output": "output/collection-grunge/styled/root-access-ivory.png"
+  },
+  {
+    "id": "root-access",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "73c62954d9b66dd1c53b93c258b57033700a648805ec001ad426a7623b89ae31",
+    "output": "output/collection-grunge/styled/root-access-grey.png"
+  },
+  {
+    "id": "root-access",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "20fe6801c5bd62f5646ca9a088ab7f4cad1bcc525282c82d84a14b46fa7cffd6",
+    "output": "output/collection-grunge/styled/root-access-violet.png"
+  },
+  {
+    "id": "root-access",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "83f55de246342f164c19d3e314012d5cda40cab141c0bccc7bd8cb6f94708b7a",
+    "output": "output/collection-grunge/styled/root-access-granite.png"
+  },
+  {
+    "id": "root-access",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "66dabcf49552e3ce145af472face5c6244f06b28c8a9c1f9feeb56cbd10be7b0",
+    "output": "output/collection-grunge/styled/root-access-khaki.png"
+  },
+  {
+    "id": "root-access",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "081f03ccb7e5b232995355a99323765d96606caff4b4459a6ea0aee60347187f",
+    "output": "output/collection-grunge/styled/root-access-washed-denim.png"
+  },
+  {
+    "id": "root-access",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "bedb711fbabcf07bd082ea2b116c11d302aad4b5f52f39cd920c8e04ee3df194",
+    "output": "output/collection-grunge/styled/root-access-bay.png"
+  },
+  {
+    "id": "root-access",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "e71eadaff54c7004c5f494501fc3052f2c1874b488c441be97dab0a2cbdb2a22",
+    "output": "output/collection-grunge/styled/root-access-lagoon-blue.png"
+  },
+  {
+    "id": "simulation-leak",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "84b000a282f0a0b0d8a94e1adf7c21620ece0f5496c0cee71cf58c1b27c27ba9",
+    "output": "output/collection-grunge/styled/simulation-leak-ivory.png"
+  },
+  {
+    "id": "simulation-leak",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "3db9969e684d65889b7b05d350f9132e55e8225a847bdc398bb0009e8e062d3e",
+    "output": "output/collection-grunge/styled/simulation-leak-grey.png"
+  },
+  {
+    "id": "simulation-leak",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "bed7835a8ea3bd78b31a5f2708e0f8a7c8c9f7e6db00b3ddb3ae2e7e5582574f",
+    "output": "output/collection-grunge/styled/simulation-leak-violet.png"
+  },
+  {
+    "id": "simulation-leak",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "cf69361d05a51fbe7d8bcfc25f6f2d38efb22d3af5302581464dd9d5011206d9",
+    "output": "output/collection-grunge/styled/simulation-leak-granite.png"
+  },
+  {
+    "id": "simulation-leak",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "5c78b5737be3e4d35783fadba55f4eb9f7b31d6394b781893ce8e8fdd8d96631",
+    "output": "output/collection-grunge/styled/simulation-leak-khaki.png"
+  },
+  {
+    "id": "simulation-leak",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "e63a01bdb138ab69900639151555ab3d4e9fcd60b7ad8ae146a45641255ab1ad",
+    "output": "output/collection-grunge/styled/simulation-leak-washed-denim.png"
+  },
+  {
+    "id": "simulation-leak",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "bd2e70eec61b70ddc2fda9eb5608243a7b5827e2e55e022b8a8f6bb91c966802",
+    "output": "output/collection-grunge/styled/simulation-leak-bay.png"
+  },
+  {
+    "id": "simulation-leak",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "bac8fc873b76020abeb420c326e330f945350f25d45d22615121fb13b141f9a1",
+    "output": "output/collection-grunge/styled/simulation-leak-lagoon-blue.png"
+  },
+  {
+    "id": "silicone-throne",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "770141b000ca0417fbac0215948df8d67cd7f5e78f0961b7102c934291757726",
+    "output": "output/collection-grunge/styled/silicone-throne-ivory.png"
+  },
+  {
+    "id": "silicone-throne",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "c589e2f0582d79a87244f5858d34251188f96bef1f9b2ef7ee4081ec3d9de935",
+    "output": "output/collection-grunge/styled/silicone-throne-grey.png"
+  },
+  {
+    "id": "silicone-throne",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "0911dec171ec7b3c86bcd08d275ba6fd609a3377a03ac017e444dd0d7f3d27f3",
+    "output": "output/collection-grunge/styled/silicone-throne-violet.png"
+  },
+  {
+    "id": "silicone-throne",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "380aac9183b2cde4d71875ca512381934982ff395abc525f1597a9074db6cc5e",
+    "output": "output/collection-grunge/styled/silicone-throne-granite.png"
+  },
+  {
+    "id": "silicone-throne",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "c2daa6e04329533deb125a00c9bd02afd0d29a33c8bb1043b0fe9e6cb297f49c",
+    "output": "output/collection-grunge/styled/silicone-throne-khaki.png"
+  },
+  {
+    "id": "silicone-throne",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "d910c8130aebaa5796202dcb54f30c39f111a2296e3287d616bedfea0b699658",
+    "output": "output/collection-grunge/styled/silicone-throne-washed-denim.png"
+  },
+  {
+    "id": "silicone-throne",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "0dcbc1fd09feee18e99027cd00e00ad6ab3565d45d513078fa5e413f442f3de1",
+    "output": "output/collection-grunge/styled/silicone-throne-bay.png"
+  },
+  {
+    "id": "silicone-throne",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "6d44150087b6acf13bbfa88c69091c3e9a5821da2f79583370a8741720d007a2",
+    "output": "output/collection-grunge/styled/silicone-throne-lagoon-blue.png"
+  },
+  {
+    "id": "adrenochrome",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "60383cc2925c626b1a08c4338ed837c089620421b0499a580c7699271bb38e82",
+    "output": "output/collection-grunge/styled/adrenochrome-ivory.png"
+  },
+  {
+    "id": "adrenochrome",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "e5c32fc8524a398b5442a4cb505bb1a7d35a92fc3c748bd17305e30d2dccec00",
+    "output": "output/collection-grunge/styled/adrenochrome-grey.png"
+  },
+  {
+    "id": "adrenochrome",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "a1fdf7ac53cb6ec7e708eec1686a7dce357c1f42b1fbba04284f2987d15aba40",
+    "output": "output/collection-grunge/styled/adrenochrome-violet.png"
+  },
+  {
+    "id": "adrenochrome",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "e5b085527cc2dee2baff78a0ac267e0a6b928dc3c9beb39442b120e091e20667",
+    "output": "output/collection-grunge/styled/adrenochrome-granite.png"
+  },
+  {
+    "id": "adrenochrome",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "5cbdeb94c8c82026a68c710b8a41885a2e6b80244c148cc4f07db2469ad513c7",
+    "output": "output/collection-grunge/styled/adrenochrome-khaki.png"
+  },
+  {
+    "id": "adrenochrome",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "93ec1a326f6aaf70aea7df80fb8ab4dab8f0836d7d42807272bdf45dcde7a9a2",
+    "output": "output/collection-grunge/styled/adrenochrome-washed-denim.png"
+  },
+  {
+    "id": "adrenochrome",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "e504f160f3ccfb3cf647156f8e29cf09c98d4c1d05800489a5d8ffd4068c7ce9",
+    "output": "output/collection-grunge/styled/adrenochrome-bay.png"
+  },
+  {
+    "id": "adrenochrome",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "3b8abf10b868da415b07a21b0864dc53cb6f295bf6469a12246a08778241a298",
+    "output": "output/collection-grunge/styled/adrenochrome-lagoon-blue.png"
+  },
+  {
+    "id": "aaron",
+    "color": "Ivory",
+    "preservedPixels": 331873,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296439,
+    "adjustedEdgePixels": 7302,
+    "referenceSHA256": "0bd877a3df08e6428d89490bc36fe74d0a2d7685f21d6c4a85a29a2902bdc795",
+    "output": "output/collection-grunge/styled/aaron-ivory.png"
+  },
+  {
+    "id": "aaron",
+    "color": "Grey",
+    "preservedPixels": 331463,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297744,
+    "adjustedEdgePixels": 5685,
+    "referenceSHA256": "58f4f9e62dec529fea7c868785c127497b309b140e52f4e46f44a0decadbdbde",
+    "output": "output/collection-grunge/styled/aaron-grey.png"
+  },
+  {
+    "id": "aaron",
+    "color": "Violet",
+    "preservedPixels": 334091,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 294188,
+    "adjustedEdgePixels": 8718,
+    "referenceSHA256": "07a4366f1712f341530f1e4b54b2a16a31b71d012103dc8572ba23e5a413cdad",
+    "output": "output/collection-grunge/styled/aaron-violet.png"
+  },
+  {
+    "id": "aaron",
+    "color": "Granite",
+    "preservedPixels": 331350,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 297865,
+    "adjustedEdgePixels": 5788,
+    "referenceSHA256": "0ad38b9c2359994e30c6732e16a4a29b0899c3e4bfafc1849c0b9b3fbc1eda9e",
+    "output": "output/collection-grunge/styled/aaron-granite.png"
+  },
+  {
+    "id": "aaron",
+    "color": "Khaki",
+    "preservedPixels": 332425,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 295171,
+    "adjustedEdgePixels": 7877,
+    "referenceSHA256": "d6297c6ecccb7b278b8afbff7dc76a8e7a3f41e86534ba18e844368e7d1e681b",
+    "output": "output/collection-grunge/styled/aaron-khaki.png"
+  },
+  {
+    "id": "aaron",
+    "color": "Washed Denim",
+    "preservedPixels": 334195,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293901,
+    "adjustedEdgePixels": 9327,
+    "referenceSHA256": "a69266143ebe932a370da0d24de6a6ce75e76f529e986503decb7ae99dc05944",
+    "output": "output/collection-grunge/styled/aaron-washed-denim.png"
+  },
+  {
+    "id": "aaron",
+    "color": "Bay",
+    "preservedPixels": 331660,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 296928,
+    "adjustedEdgePixels": 6541,
+    "referenceSHA256": "66aa3dd4d70c6dff055dd6018324410f8ebae5abcc139b7dbc8ea97710731f4e",
+    "output": "output/collection-grunge/styled/aaron-bay.png"
+  },
+  {
+    "id": "aaron",
+    "color": "Lagoon Blue",
+    "preservedPixels": 334835,
+    "changedProtectedPixels": 0,
+    "exteriorPixels": 293574,
+    "adjustedEdgePixels": 9053,
+    "referenceSHA256": "c15dc1e7bb8638f0ba76d0e4dfe8881d491dddc093132275ff4553556cf7f2d4",
+    "output": "output/collection-grunge/styled/aaron-lagoon-blue.png"
+  }
+]
