@@ -18,8 +18,8 @@ for (const job of inventory.jobs) {
   if (createHash('sha256').update(original).digest('hex') !== job.referenceSHA256) throw Error('Reference modified');
   const filename = `${job.id}-${slug(job.color)}.webp`;
   const destination = `public/assets/products/collection-grunge/${filename}`;
-  // Lossless display copies preserve the verified master pixels too.
-  await sharp(job.output).webp({ lossless: true, effort: 1 }).toFile(destination);
+  // Quality-92 display copies fit the SiteGround upload limit; PNG masters stay lossless.
+  await sharp(job.output).webp({ quality: 92, effort: 5 }).toFile(destination);
   totalBytes += (await readFile(destination)).length;
   const product = catalog.find(p => p.id === job.id);
   product.styledImages ??= {};
@@ -34,7 +34,7 @@ for (const collection of collections) {
   const jobs = inventory.jobs.filter(j => j.collection === collection);
   await writeFile(`${root}/review/${slug(collection)}.html`, `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(collection)} — Grunge review</title><style>${style}</style><header><a href="../review.html">All collections</a><h1>${escape(collection)}</h1><p>${jobs.length} styled images. Select any image for its full-size PNG; Original opens its unchanged Printful reference.</p></header><div class="grid">${cards(jobs)}</div></html>`);
 }
-await writeFile(`${root}/review.html`, `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tinfoil Hat — 372 styled images</title><style>${style}</style><header><small>TINFOIL HAT / COMPLETE GRUNGE INVENTORY</small><h1>372 images. Five collections.</h1><p>All 24 remaining designs, every available shirt color. Lossless 800 × 800 masters and WebP copies. Garment interiors and printed artwork remain pixel-identical to the source; only the background and a four-pixel antialiased silhouette edge are composited. Originals are preserved. Local catalog mappings are prepared; not deployed.</p><nav>${collections.map(c => `<a href="review/${slug(c)}.html">${c} (${inventory.jobs.filter(j => j.collection === c).length})</a>`).join('')}</nav></header><h2>Design overview</h2><div class="grid">${cards(inventory.jobs.filter(j => j.lead)).replaceAll('../styled/','styled/').replaceAll('../references/','references/')}</div></html>`);
+await writeFile(`${root}/review.html`, `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tinfoil Hat — 372 styled images</title><style>${style}</style><header><small>TINFOIL HAT / COMPLETE GRUNGE INVENTORY</small><h1>372 images. Five collections.</h1><p>All 24 remaining designs, every available shirt color. Lossless 800 × 800 PNG masters and optimized quality-92 WebP website copies. Garment interiors and printed artwork remain pixel-identical to the source; only the background and a four-pixel antialiased silhouette edge are composited. Originals are preserved. Local catalog mappings are prepared; not deployed.</p><nav>${collections.map(c => `<a href="review/${slug(c)}.html">${c} (${inventory.jobs.filter(j => j.collection === c).length})</a>`).join('')}</nav></header><h2>Design overview</h2><div class="grid">${cards(inventory.jobs.filter(j => j.lead)).replaceAll('../styled/','styled/').replaceAll('../references/','references/')}</div></html>`);
 // Review sheets cover each design's complete color range.
 for (const id of [...new Set(inventory.jobs.map(j => j.id))]) {
   const jobs = inventory.jobs.filter(j => j.id === id);
@@ -45,4 +45,4 @@ for (const id of [...new Set(inventory.jobs.map(j => j.id))]) {
   await sharp({ create:{width:1440,height:Math.ceil(jobs.length / 6)*240,channels:3,background:'#101010'} }).composite(tiles).png().toFile(`${root}/review/${id}-colors.png`);
 }
 await writeFile(`${root}/package-summary.json`, JSON.stringify({images:372,designs:24,collections:5,webpBytes:totalBytes,sourceHashesVerified:372,protectedPixelFailures:0,deployed:false},null,2));
-console.log(`Packaged 372 lossless WebPs (${Math.round(totalBytes/1024/1024)} MiB), full review galleries, and local catalog mappings.`);
+console.log(`Packaged 372 optimized WebPs (${Math.round(totalBytes/1024/1024)} MiB), full review galleries, and local catalog mappings.`);

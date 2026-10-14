@@ -25,7 +25,7 @@ The AI-edited Numbers Station sample under `samples/` was excluded because it al
 - `output/collection-grunge/review.html`: complete review, linked to five collection galleries and original references.
 - `output/collection-grunge/styled/`: 372 lossless PNG masters, 800 × 800.
 - `output/collection-grunge/review/*-colors.png`: every design's complete color sheet.
-- `public/assets/products/collection-grunge/`: 372 lossless WebP copies.
+- `public/assets/products/collection-grunge/`: 372 quality-92 WebP website copies. Lossless PNG masters remain in the output folder.
 - `output/collection-grunge/composite-validation.json`: per-image pixel checks.
 - `data/catalog.json`: every remaining color mapped to a styled image; `styledImageMethod: composite` distinguishes these from the original AI mockups.
 - `src/main.js`: gallery note identifies the original garment with a styled collection background.
@@ -37,3 +37,5 @@ Validation: 372 mappings and asset files verified; Black File entries and all un
 ## Rebuild
 
 Run `node scripts/download-grunge-references.mjs`, then `node scripts/composite-collection-grunge.mjs`, then `node scripts/package-collection-grunge.mjs`. Existing original reference files are reused and hash-checked. The compositing step rewrites only derived assets. The packaging step backs up the catalog before its first mapping update and preserves unrelated catalog fields.
+
+SiteGround upload preparation: the 128 MB upload cap required optimizing the display assets from 259 MiB lossless WebP to 69.3 MiB quality-92 WebP. Six print-area comparisons averaged 40.28 dB PSNR, and visual review found the small lettering intact. The lossless PNG masters and originals were preserved.
