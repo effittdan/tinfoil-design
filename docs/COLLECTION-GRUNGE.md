@@ -30,7 +30,7 @@ The AI-edited Numbers Station sample under `samples/` was excluded because it al
 - `data/catalog.json`: every remaining color mapped to a styled image; `styledImageMethod: composite` distinguishes these from the original AI mockups.
 - `src/main.js`: gallery note identifies the original garment with a styled collection background.
 
-The local catalog is prepared; no deployment, Printful changes, price changes, or fulfillment changes are part of this work.
+The user authorized GitHub and SiteGround publication after reviewing the local catalog. No Printful, price, or fulfillment-setting changes were part of this release.
 
 Validation: 372 mappings and asset files verified; Black File entries and all unrelated catalog fields match the pre-update backup. All 18 automated tests and the production build passed. Live provider checks were skipped because credentials are not configured locally.
 
@@ -39,3 +39,16 @@ Validation: 372 mappings and asset files verified; Black File entries and all un
 Run `node scripts/download-grunge-references.mjs`, then `node scripts/composite-collection-grunge.mjs`, then `node scripts/package-collection-grunge.mjs`. Existing original reference files are reused and hash-checked. The compositing step rewrites only derived assets. The packaging step backs up the catalog before its first mapping update and preserves unrelated catalog fields.
 
 SiteGround upload preparation: the 128 MB upload cap required optimizing the display assets from 259 MiB lossless WebP to 69.3 MiB quality-92 WebP. Six print-area comparisons averaged 40.28 dB PSNR, and visual review found the small lettering intact. The lossless PNG masters and originals were preserved.
+
+## Published release
+
+GitHub `main`: source/asset commit `c7cb538`, followed by display optimization `a141a39`. SiteGround accepted `.netlify/tinfoil-collection-grunge-web.zip` (123,843,146 bytes), and the wizard reported **Deployed!**. The runtime package preserves the previous automatic-fulfillment release, changing only `src/main.js`, `data/catalog.json`, and the new display assets.
+
+Live verification on `https://tinfoildesign.com`:
+
+- All 372 new asset URLs returned HTTP 200, `image/webp`, and SHA-256 matching the local optimized asset.
+- Shop DOM showed 24 new grunge product-card images and no visible broken images.
+- Numbers Station styled gallery switched to the exact Ivory asset and displayed the composited-background note.
+- Desktop (2309 px) and mobile (390 px) DOM measurements found no horizontal overflow. Mobile screenshot capture timed out; DOM checks completed.
+- Catalog returned `live: true`, 26 products and 2,730 variants. Capabilities retained card checkout enabled, PayPal disabled, US delivery.
+- Evidence: `output/collection-grunge/live-verification.json`, `siteground-deployed.png`, and `live-product-ivory.png`.
